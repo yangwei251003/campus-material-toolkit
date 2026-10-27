@@ -1,0 +1,81 @@
+[
+  {
+    "name": "pillow",
+    "version": "13.0.0",
+    "declared_license": "MIT-CMU",
+    "notice_files": [
+      "licenses/python/pillow-13.0.0/LICENSE"
+    ]
+  },
+  {
+    "name": "reportlab",
+    "version": "5.1.0",
+    "declared_license": "BSD license (see license.txt for details), Copyright (c) 2000-2025, ReportLab Inc.",
+    "notice_files": [
+      "licenses/python/reportlab-5.1.0/LICENSE"
+    ]
+  },
+  {
+    "name": "pymupdf",
+    "version": "1.28.2",
+    "declared_license": "Dual Licensed - GNU AFFERO GPL 3.0 or Artifex Commercial License",
+    "notice_files": [
+      "licenses/python/pymupdf-1.28.2/COPYING"
+    ]
+  },
+  {
+    "name": "numpy",
+    "version": "2.4.4",
+    "declared_license": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+    "notice_files": [
+      "licenses/python/numpy-2.4.4/LICENSE.txt",
+      "licenses/python/numpy-2.4.4/1-LICENSE.txt",
+      "licenses/python/numpy-2.4.4/COPYING",
+      "licenses/python/numpy-2.4.4/LICENSE",
+      "licenses/python/numpy-2.4.4/dragon4_LICENSE.txt",
+      "licenses/python/numpy-2.4.4/LICENSE.md",
+      "licenses/python/numpy-2.4.4/6-LICENSE",
+      "licenses/python/numpy-2.4.4/7-LICENSE.md",
+      "licenses/python/numpy-2.4.4/8-LICENSE.txt",
+      "licenses/python/numpy-2.4.4/9-LICENSE",
+      "licenses/python/numpy-2.4.4/10-LICENSE.md",
+      "licenses/python/numpy-2.4.4/11-LICENSE.md",
+      "licenses/python/numpy-2.4.4/12-LICENSE.md",
+      "licenses/python/numpy-2.4.4/13-LICENSE.md",
+      "licenses/python/numpy-2.4.4/14-LICENSE.md",
+      "licenses/python/numpy-2.4.4/15-LICENSE.md",
+      "licenses/python/numpy-2.4.4/16-LICENSE.md"
+    ]
+  },
+  {
+    "name": "opencv-python",
+    "version": "4.13.0.92",
+    "declared_license": "Apache 2.0",
+    "notice_files": [
+      "licenses/python/opencv-python-4.13.0.92/LICENSE-3RD-PARTY.txt",
+      "licenses/python/opencv-python-4.13.0.92/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "pypdf",
+    "version": "5.1.0",
+    "declared_license": null,
+    "notice_files": [
+      "licenses/python/pypdf-5.1.0/LICENSE"
+    ]
+  },
+  {
+    "name": "pypdfium2",
+    "version": "5.14.0",
+    "declared_license": "BSD-3-Clause, Apache-2.0, dependency licenses",
+    "notice_files": []
+  },
+  {
+    "name": "charset-normalizer",
+    "version": "3.5.2",
+    "declared_license": "MIT",
+    "notice_files": [
+      "licenses/python/charset-normalizer-3.5.2/LICENSE"
+    ]
+  }
+]

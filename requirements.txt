@@ -1,0 +1,7 @@
+pillow==13.0.0
+reportlab==5.1.0
+pymupdf==1.28.2
+numpy==2.4.4
+opencv-python==4.13.0.92
+pypdf==5.1.0
+pypdfium2==5.14.0

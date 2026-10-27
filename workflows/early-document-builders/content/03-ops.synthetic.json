@@ -1,0 +1,843 @@
+{
+  "content": {
+    "poster": {
+      "principle": "Synthetic example 0822",
+      "layers": [
+        {
+          "k": "Synthetic example 0823",
+          "v": "Synthetic example 0824"
+        },
+        {
+          "k": "Synthetic example 0825",
+          "v": "Synthetic example 0826"
+        },
+        {
+          "k": "Synthetic example 0827",
+          "v": "Synthetic example 0828"
+        },
+        {
+          "k": "Synthetic example 0829",
+          "v": "Synthetic example 0830"
+        },
+        {
+          "k": "Synthetic example 0831",
+          "v": "Synthetic example 0832"
+        },
+        {
+          "k": "Synthetic example 0833",
+          "v": "Synthetic example 0834"
+        }
+      ],
+      "specs": "Synthetic example 0835"
+    },
+    "flyer": {
+      "principle": "Synthetic example 0836",
+      "front": {
+        "head": "Synthetic example 0837",
+        "sub": "Synthetic example 0838",
+        "hook": "Synthetic example 0839",
+        "benefits": "Synthetic example 0840",
+        "qr": "Synthetic example 0841",
+        "note": "Synthetic example 0842"
+      },
+      "back": {
+        "title": "Synthetic example 0843",
+        "paths": [
+          {
+            "n": "Synthetic example 0844",
+            "d": "Synthetic example 0845"
+          },
+          {
+            "n": "Synthetic example 0846",
+            "d": "Synthetic example 0847"
+          },
+          {
+            "n": "Synthetic example 0848",
+            "d": "Synthetic example 0849"
+          },
+          {
+            "n": "Synthetic example 0850",
+            "d": "Synthetic example 0851"
+          }
+        ],
+        "data": "Synthetic example 0852",
+        "contact": "Synthetic example 0853"
+      }
+    },
+    "campusWall": [
+      {
+        "no": "Synthetic example 0854",
+        "title": "Synthetic example 0855",
+        "body": "Synthetic example 0856",
+        "tag": "Synthetic example 0857",
+        "cta": "Synthetic example 0858"
+      },
+      {
+        "no": "Synthetic example 0859",
+        "title": "Synthetic example 0860",
+        "body": "Synthetic example 0861",
+        "tag": "Synthetic example 0862",
+        "cta": "Synthetic example 0863"
+      },
+      {
+        "no": "Synthetic example 0864",
+        "title": "Synthetic example 0865",
+        "body": "Synthetic example 0866",
+        "tag": "Synthetic example 0867",
+        "cta": "Synthetic example 0868"
+      },
+      {
+        "no": "Synthetic example 0869",
+        "title": "Synthetic example 0870",
+        "body": "Synthetic example 0871",
+        "tag": "Synthetic example 0872",
+        "cta": "Synthetic example 0873"
+      },
+      {
+        "no": "Synthetic example 0874",
+        "title": "Synthetic example 0875",
+        "body": "Synthetic example 0876",
+        "tag": "Synthetic example 0877",
+        "cta": "Synthetic example 0878"
+      },
+      {
+        "no": "Synthetic example 0879",
+        "title": "Synthetic example 0880",
+        "body": "Synthetic example 0881",
+        "tag": "Synthetic example 0882",
+        "cta": "Synthetic example 0883"
+      }
+    ],
+    "live": [
+      {
+        "no": "Synthetic example 0884",
+        "title": "Synthetic example 0885",
+        "dur": "Synthetic example 0886",
+        "when": "Synthetic example 0887",
+        "flow": [
+          "Synthetic example 0888",
+          "Synthetic example 0889",
+          "Synthetic example 0890",
+          "Synthetic example 0891",
+          "Synthetic example 0892"
+        ],
+        "tips": "Synthetic example 0893"
+      },
+      {
+        "no": "Synthetic example 0894",
+        "title": "Synthetic example 0895",
+        "dur": "Synthetic example 0896",
+        "when": "Synthetic example 0897",
+        "flow": [
+          "Synthetic example 0898",
+          "Synthetic example 0899",
+          "Synthetic example 0900",
+          "Synthetic example 0901",
+          "Synthetic example 0902"
+        ],
+        "tips": "Synthetic example 0903"
+      }
+    ],
+    "shortVideo": [
+      "Synthetic example 0904",
+      "Synthetic example 0905",
+      "Synthetic example 0906",
+      "Synthetic example 0907",
+      "Synthetic example 0908",
+      "Synthetic example 0909"
+    ]
+  },
+  "points": {
+    "principle": "Synthetic example 0910",
+    "earn": [
+      {
+        "act": "Synthetic example 0911",
+        "p": 1,
+        "cap": "Synthetic example 0912"
+      },
+      {
+        "act": "Synthetic example 0913",
+        "p": 1,
+        "cap": "Synthetic example 0914"
+      },
+      {
+        "act": "Synthetic example 0915",
+        "p": 1,
+        "cap": "Synthetic example 0916"
+      },
+      {
+        "act": "Synthetic example 0917",
+        "p": 1,
+        "cap": "Synthetic example 0918"
+      },
+      {
+        "act": "Synthetic example 0919",
+        "p": 1,
+        "cap": "Synthetic example 0920"
+      },
+      {
+        "act": "Synthetic example 0921",
+        "p": 1,
+        "cap": "Synthetic example 0922"
+      },
+      {
+        "act": "Synthetic example 0923",
+        "p": 1,
+        "cap": "Synthetic example 0924"
+      },
+      {
+        "act": "Synthetic example 0925",
+        "p": 1,
+        "cap": "Synthetic example 0926"
+      },
+      {
+        "act": "Synthetic example 0927",
+        "p": 1,
+        "cap": "Synthetic example 0928"
+      },
+      {
+        "act": "Synthetic example 0929",
+        "p": 1,
+        "cap": "Synthetic example 0930"
+      },
+      {
+        "act": "Synthetic example 0931",
+        "p": 1,
+        "cap": "Synthetic example 0932"
+      },
+      {
+        "act": "Synthetic example 0933",
+        "p": 1,
+        "cap": "Synthetic example 0934"
+      },
+      {
+        "act": "Synthetic example 0935",
+        "p": 1,
+        "cap": "Synthetic example 0936"
+      }
+    ],
+    "redeem": [
+      {
+        "p": "Synthetic example 0937",
+        "r": "Synthetic example 0938"
+      },
+      {
+        "p": "Synthetic example 0939",
+        "r": "Synthetic example 0940"
+      },
+      {
+        "p": "Synthetic example 0941",
+        "r": "Synthetic example 0942"
+      },
+      {
+        "p": "Synthetic example 0943",
+        "r": "Synthetic example 0944"
+      },
+      {
+        "p": "Synthetic example 0945",
+        "r": "Synthetic example 0946"
+      }
+    ],
+    "rules": [
+      "Synthetic example 0947",
+      "Synthetic example 0948",
+      "Synthetic example 0949",
+      "Synthetic example 0950",
+      "Synthetic example 0951",
+      "Synthetic example 0952"
+    ]
+  },
+  "community": {
+    "layers": [
+      {
+        "n": "Synthetic example 0953",
+        "g": "Synthetic example 0954",
+        "rule": "Synthetic example 0955"
+      },
+      {
+        "n": "Synthetic example 0956",
+        "g": "Synthetic example 0957",
+        "rule": "Synthetic example 0958"
+      },
+      {
+        "n": "Synthetic example 0959",
+        "g": "Synthetic example 0960",
+        "rule": "Synthetic example 0961"
+      }
+    ],
+    "welcome": "Synthetic example 0962",
+    "calendar": [
+      {
+        "d": "Synthetic example 0963",
+        "c": "Synthetic example 0964"
+      },
+      {
+        "d": "Synthetic example 0965",
+        "c": "Synthetic example 0966"
+      },
+      {
+        "d": "Synthetic example 0967",
+        "c": "Synthetic example 0968"
+      },
+      {
+        "d": "Synthetic example 0969",
+        "c": "Synthetic example 0970"
+      },
+      {
+        "d": "Synthetic example 0971",
+        "c": "Synthetic example 0972"
+      },
+      {
+        "d": "Synthetic example 0973",
+        "c": "Synthetic example 0974"
+      },
+      {
+        "d": "Synthetic example 0975",
+        "c": "Synthetic example 0976"
+      }
+    ],
+    "sop": [
+      {
+        "t": "Synthetic example 0977",
+        "d": "Synthetic example 0978"
+      },
+      {
+        "t": "Synthetic example 0979",
+        "d": "Synthetic example 0980"
+      },
+      {
+        "t": "Synthetic example 0981",
+        "d": "Synthetic example 0982"
+      },
+      {
+        "t": "Synthetic example 0983",
+        "d": "Synthetic example 0984"
+      },
+      {
+        "t": "Synthetic example 0985",
+        "d": "Synthetic example 0986"
+      },
+      {
+        "t": "Synthetic example 0987",
+        "d": "Synthetic example 0988"
+      }
+    ]
+  },
+  "budget": {
+    "note": "Synthetic example 0989",
+    "items": [
+      {
+        "c": "Synthetic example 0990",
+        "n": "Synthetic example 0991",
+        "s": "Synthetic example 0992",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 0993"
+      },
+      {
+        "c": "Synthetic example 0994",
+        "n": "Synthetic example 0995",
+        "s": "Synthetic example 0996",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 0997"
+      },
+      {
+        "c": "Synthetic example 0998",
+        "n": "Synthetic example 0999",
+        "s": "Synthetic example 1000",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 1001"
+      },
+      {
+        "c": "Synthetic example 1002",
+        "n": "Synthetic example 1003",
+        "s": "Synthetic example 1004",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 1005"
+      },
+      {
+        "c": "Synthetic example 1006",
+        "n": "Synthetic example 1007",
+        "s": "Synthetic example 1008",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 1009"
+      },
+      {
+        "c": "Synthetic example 1010",
+        "n": "Synthetic example 1011",
+        "s": "Synthetic example 1012",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 1013"
+      },
+      {
+        "c": "Synthetic example 1014",
+        "n": "Synthetic example 1015",
+        "s": "Synthetic example 1016",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 1017"
+      },
+      {
+        "c": "Synthetic example 1018",
+        "n": "Synthetic example 1019",
+        "s": "Synthetic example 1020",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 1021"
+      },
+      {
+        "c": "Synthetic example 1022",
+        "n": "Synthetic example 1023",
+        "s": "Synthetic example 1024",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 1025"
+      },
+      {
+        "c": "Synthetic example 1026",
+        "n": "Synthetic example 1027",
+        "s": "Synthetic example 1028",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 1029"
+      },
+      {
+        "c": "Synthetic example 1030",
+        "n": "Synthetic example 1031",
+        "s": "Synthetic example 1032",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 1033"
+      },
+      {
+        "c": "Synthetic example 1034",
+        "n": "Synthetic example 1035",
+        "s": "Synthetic example 1036",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 1037"
+      },
+      {
+        "c": "Synthetic example 1038",
+        "n": "Synthetic example 1039",
+        "s": "Synthetic example 1040",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 1041"
+      },
+      {
+        "c": "Synthetic example 1042",
+        "n": "Synthetic example 1043",
+        "s": "Synthetic example 1044",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 1045"
+      },
+      {
+        "c": "Synthetic example 1046",
+        "n": "Synthetic example 1047",
+        "s": "Synthetic example 1048",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 1049"
+      },
+      {
+        "c": "Synthetic example 1050",
+        "n": "Synthetic example 1051",
+        "s": "Synthetic example 1052",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 1053"
+      },
+      {
+        "c": "Synthetic example 1054",
+        "n": "Synthetic example 1055",
+        "s": "Synthetic example 1056",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 1057"
+      },
+      {
+        "c": "Synthetic example 1058",
+        "n": "Synthetic example 1059",
+        "s": "Synthetic example 1060",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 1061"
+      },
+      {
+        "c": "Synthetic example 1062",
+        "n": "Synthetic example 1063",
+        "s": "Synthetic example 1064",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 1065"
+      },
+      {
+        "c": "Synthetic example 1066",
+        "n": "Synthetic example 1067",
+        "s": "Synthetic example 1068",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 1069"
+      },
+      {
+        "c": "Synthetic example 1070",
+        "n": "Synthetic example 1071",
+        "s": "Synthetic example 1072",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 1073"
+      },
+      {
+        "c": "Synthetic example 1074",
+        "n": "Synthetic example 1075",
+        "s": "Synthetic example 1076",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 1077"
+      },
+      {
+        "c": "Synthetic example 1078",
+        "n": "Synthetic example 1079",
+        "s": "Synthetic example 1080",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 1081"
+      },
+      {
+        "c": "Synthetic example 1082",
+        "n": "Synthetic example 1083",
+        "s": "Synthetic example 1084",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 1085"
+      },
+      {
+        "c": "Synthetic example 1086",
+        "n": "Synthetic example 1087",
+        "s": "Synthetic example 1088",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 1089"
+      },
+      {
+        "c": "Synthetic example 1090",
+        "n": "Synthetic example 1091",
+        "s": "Synthetic example 1092",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 1093"
+      },
+      {
+        "c": "Synthetic example 1094",
+        "n": "Synthetic example 1095",
+        "s": "Synthetic example 1096",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 1097"
+      },
+      {
+        "c": "Synthetic example 1098",
+        "n": "Synthetic example 1099",
+        "s": "Synthetic example 1100",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 1101"
+      },
+      {
+        "c": "Synthetic example 1102",
+        "n": "Synthetic example 1103",
+        "s": "Synthetic example 1104",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 1105"
+      },
+      {
+        "c": "Synthetic example 1106",
+        "n": "Synthetic example 1107",
+        "s": "Synthetic example 1108",
+        "q": 1,
+        "u": 1,
+        "ph": "Synthetic example 1109"
+      }
+    ],
+    "reserve": "Synthetic example 1110",
+    "tiers": [
+      {
+        "n": "Synthetic example 1111",
+        "total": "Synthetic example 1112",
+        "cut": "Synthetic example 1113",
+        "fit": "Synthetic example 1114"
+      },
+      {
+        "n": "Synthetic example 1115",
+        "total": "Synthetic example 1116",
+        "cut": "Synthetic example 1117",
+        "fit": "Synthetic example 1118"
+      },
+      {
+        "n": "Synthetic example 1119",
+        "total": "Synthetic example 1120",
+        "cut": "Synthetic example 1121",
+        "fit": "Synthetic example 1122"
+      }
+    ]
+  },
+  "risks": [
+    {
+      "t": "Synthetic example 1123",
+      "s": "Synthetic example 1124",
+      "p": "Synthetic example 1125",
+      "r": "Synthetic example 1126",
+      "o": "Synthetic example 1127"
+    },
+    {
+      "t": "Synthetic example 1128",
+      "s": "Synthetic example 1129",
+      "p": "Synthetic example 1130",
+      "r": "Synthetic example 1131",
+      "o": "Synthetic example 1132"
+    },
+    {
+      "t": "Synthetic example 1133",
+      "s": "Synthetic example 1134",
+      "p": "Synthetic example 1135",
+      "r": "Synthetic example 1136",
+      "o": "Synthetic example 1137"
+    },
+    {
+      "t": "Synthetic example 1138",
+      "s": "Synthetic example 1139",
+      "p": "Synthetic example 1140",
+      "r": "Synthetic example 1141",
+      "o": "Synthetic example 1142"
+    },
+    {
+      "t": "Synthetic example 1143",
+      "s": "Synthetic example 1144",
+      "p": "Synthetic example 1145",
+      "r": "Synthetic example 1146",
+      "o": "Synthetic example 1147"
+    },
+    {
+      "t": "Synthetic example 1148",
+      "s": "Synthetic example 1149",
+      "p": "Synthetic example 1150",
+      "r": "Synthetic example 1151",
+      "o": "Synthetic example 1152"
+    },
+    {
+      "t": "Synthetic example 1153",
+      "s": "Synthetic example 1154",
+      "p": "Synthetic example 1155",
+      "r": "Synthetic example 1156",
+      "o": "Synthetic example 1157"
+    },
+    {
+      "t": "Synthetic example 1158",
+      "s": "Synthetic example 1159",
+      "p": "Synthetic example 1160",
+      "r": "Synthetic example 1161",
+      "o": "Synthetic example 1162"
+    },
+    {
+      "t": "Synthetic example 1163",
+      "s": "Synthetic example 1164",
+      "p": "Synthetic example 1165",
+      "r": "Synthetic example 1166",
+      "o": "Synthetic example 1167"
+    },
+    {
+      "t": "Synthetic example 1168",
+      "s": "Synthetic example 1169",
+      "p": "Synthetic example 1170",
+      "r": "Synthetic example 1171",
+      "o": "Synthetic example 1172"
+    },
+    {
+      "t": "Synthetic example 1173",
+      "s": "Synthetic example 1174",
+      "p": "Synthetic example 1175",
+      "r": "Synthetic example 1176",
+      "o": "Synthetic example 1177"
+    },
+    {
+      "t": "Synthetic example 1178",
+      "s": "Synthetic example 1179",
+      "p": "Synthetic example 1180",
+      "r": "Synthetic example 1181",
+      "o": "Synthetic example 1182"
+    },
+    {
+      "t": "Synthetic example 1183",
+      "s": "Synthetic example 1184",
+      "p": "Synthetic example 1185",
+      "r": "Synthetic example 1186",
+      "o": "Synthetic example 1187"
+    },
+    {
+      "t": "Synthetic example 1188",
+      "s": "Synthetic example 1189",
+      "p": "Synthetic example 1190",
+      "r": "Synthetic example 1191",
+      "o": "Synthetic example 1192"
+    },
+    {
+      "t": "Synthetic example 1193",
+      "s": "Synthetic example 1194",
+      "p": "Synthetic example 1195",
+      "r": "Synthetic example 1196",
+      "o": "Synthetic example 1197"
+    },
+    {
+      "t": "Synthetic example 1198",
+      "s": "Synthetic example 1199",
+      "p": "Synthetic example 1200",
+      "r": "Synthetic example 1201",
+      "o": "Synthetic example 1202"
+    },
+    {
+      "t": "Synthetic example 1203",
+      "s": "Synthetic example 1204",
+      "p": "Synthetic example 1205",
+      "r": "Synthetic example 1206",
+      "o": "Synthetic example 1207"
+    },
+    {
+      "t": "Synthetic example 1208",
+      "s": "Synthetic example 1209",
+      "p": "Synthetic example 1210",
+      "r": "Synthetic example 1211",
+      "o": "Synthetic example 1212"
+    }
+  ],
+  "compliance": [
+    {
+      "i": "Synthetic example 1213",
+      "t": "Synthetic example 1214",
+      "d": "Synthetic example 1215",
+      "when": "Synthetic example 1216",
+      "o": "Synthetic example 1217"
+    },
+    {
+      "i": "Synthetic example 1218",
+      "t": "Synthetic example 1219",
+      "d": "Synthetic example 1220",
+      "when": "Synthetic example 1221",
+      "o": "Synthetic example 1222"
+    },
+    {
+      "i": "Synthetic example 1223",
+      "t": "Synthetic example 1224",
+      "d": "Synthetic example 1225",
+      "when": "Synthetic example 1226",
+      "o": "Synthetic example 1227"
+    },
+    {
+      "i": "Synthetic example 1228",
+      "t": "Synthetic example 1229",
+      "d": "Synthetic example 1230",
+      "when": "Synthetic example 1231",
+      "o": "Synthetic example 1232"
+    },
+    {
+      "i": "Synthetic example 1233",
+      "t": "Synthetic example 1234",
+      "d": "Synthetic example 1235",
+      "when": "Synthetic example 1236",
+      "o": "Synthetic example 1237"
+    },
+    {
+      "i": "Synthetic example 1238",
+      "t": "Synthetic example 1239",
+      "d": "Synthetic example 1240",
+      "when": "Synthetic example 1241",
+      "o": "Synthetic example 1242"
+    },
+    {
+      "i": "Synthetic example 1243",
+      "t": "Synthetic example 1244",
+      "d": "Synthetic example 1245",
+      "when": "Synthetic example 1246",
+      "o": "Synthetic example 1247"
+    },
+    {
+      "i": "Synthetic example 1248",
+      "t": "Synthetic example 1249",
+      "d": "Synthetic example 1250",
+      "when": "Synthetic example 1251",
+      "o": "Synthetic example 1252"
+    }
+  ],
+  "measurement": {
+    "channelCodes": "Synthetic example 1253",
+    "dashboard": [
+      {
+        "k": "Synthetic example 1254",
+        "f": "Synthetic example 1255"
+      },
+      {
+        "k": "Synthetic example 1256",
+        "f": "Synthetic example 1257"
+      },
+      {
+        "k": "Synthetic example 1258",
+        "f": "Synthetic example 1259"
+      },
+      {
+        "k": "Synthetic example 1260",
+        "f": "Synthetic example 1261"
+      },
+      {
+        "k": "Synthetic example 1262",
+        "f": "Synthetic example 1263"
+      },
+      {
+        "k": "Synthetic example 1264",
+        "f": "Synthetic example 1265"
+      }
+    ],
+    "daily": "Synthetic example 1266",
+    "warning": "Synthetic example 1267",
+    "review": [
+      "Synthetic example 1268",
+      "Synthetic example 1269",
+      "Synthetic example 1270",
+      "Synthetic example 1271",
+      "Synthetic example 1272",
+      "Synthetic example 1273"
+    ]
+  },
+  "appendices": [
+    {
+      "t": "Synthetic example 1274",
+      "d": "Synthetic example 1275"
+    },
+    {
+      "t": "Synthetic example 1276",
+      "d": "Synthetic example 1277"
+    },
+    {
+      "t": "Synthetic example 1278",
+      "d": "Synthetic example 1279"
+    },
+    {
+      "t": "Synthetic example 1280",
+      "d": "Synthetic example 1281"
+    },
+    {
+      "t": "Synthetic example 1282",
+      "d": "Synthetic example 1283"
+    },
+    {
+      "t": "Synthetic example 1284",
+      "d": "Synthetic example 1285"
+    }
+  ]
+}

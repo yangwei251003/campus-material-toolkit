@@ -1,0 +1,10 @@
+{
+  "name": "campus-material-toolkit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Locally authored material packaging/layout workflows, with independent synthetic fixtures and no original business assets",
+  "license": "MIT",
+  "dependencies": {
+    "docx": "9.6.1"
+  }
+}

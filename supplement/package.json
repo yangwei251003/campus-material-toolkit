@@ -1,0 +1,8 @@
+{
+  "name": "campus-material-portable-demonstrations",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Synthetic demonstrations extracted from local workflow geometry",
+  "license": "MIT",
+  "dependencies": { "sharp": "0.35.5" }
+}

@@ -1,0 +1,177 @@
+{
+  "scope": "Actual first-party bundled Node dependency tree used for software validation; no dependency code bundled; fresh lockfile install not verified",
+  "packages": [
+    {
+      "name": "docx",
+      "version": "9.6.1",
+      "declared_license": "MIT",
+      "notice_files": [
+        "licenses/node/docx-9.6.1/LICENSE"
+      ]
+    },
+    {
+      "name": "@types/node",
+      "version": "25.9.5",
+      "declared_license": "MIT",
+      "notice_files": [
+        "licenses/node/types--node-25.9.5/LICENSE"
+      ]
+    },
+    {
+      "name": "undici-types",
+      "version": "7.24.6",
+      "declared_license": "MIT",
+      "notice_files": [
+        "licenses/node/undici-types-7.24.6/LICENSE"
+      ]
+    },
+    {
+      "name": "hash.js",
+      "version": "1.1.7",
+      "declared_license": "MIT",
+      "notice_files": []
+    },
+    {
+      "name": "inherits",
+      "version": "2.0.4",
+      "declared_license": "ISC",
+      "notice_files": [
+        "licenses/node/inherits-2.0.4/LICENSE"
+      ]
+    },
+    {
+      "name": "minimalistic-assert",
+      "version": "1.0.1",
+      "declared_license": "ISC",
+      "notice_files": [
+        "licenses/node/minimalistic-assert-1.0.1/LICENSE"
+      ]
+    },
+    {
+      "name": "jszip",
+      "version": "3.10.1",
+      "declared_license": "(MIT OR GPL-3.0-or-later)",
+      "notice_files": [
+        "licenses/node/jszip-3.10.1/LICENSE.markdown"
+      ]
+    },
+    {
+      "name": "lie",
+      "version": "3.3.0",
+      "declared_license": "MIT",
+      "notice_files": [
+        "licenses/node/lie-3.3.0/license.md"
+      ]
+    },
+    {
+      "name": "immediate",
+      "version": "3.0.6",
+      "declared_license": "MIT",
+      "notice_files": [
+        "licenses/node/immediate-3.0.6/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "pako",
+      "version": "1.0.11",
+      "declared_license": "(MIT AND Zlib)",
+      "notice_files": [
+        "licenses/node/pako-1.0.11/LICENSE"
+      ]
+    },
+    {
+      "name": "readable-stream",
+      "version": "2.3.8",
+      "declared_license": "MIT",
+      "notice_files": [
+        "licenses/node/readable-stream-2.3.8/LICENSE"
+      ]
+    },
+    {
+      "name": "core-util-is",
+      "version": "1.0.3",
+      "declared_license": "MIT",
+      "notice_files": [
+        "licenses/node/core-util-is-1.0.3/LICENSE"
+      ]
+    },
+    {
+      "name": "isarray",
+      "version": "1.0.0",
+      "declared_license": "MIT",
+      "notice_files": []
+    },
+    {
+      "name": "process-nextick-args",
+      "version": "2.0.1",
+      "declared_license": "MIT",
+      "notice_files": [
+        "licenses/node/process-nextick-args-2.0.1/license.md"
+      ]
+    },
+    {
+      "name": "safe-buffer",
+      "version": "5.1.2",
+      "declared_license": "MIT",
+      "notice_files": [
+        "licenses/node/safe-buffer-5.1.2/LICENSE"
+      ]
+    },
+    {
+      "name": "string_decoder",
+      "version": "1.1.1",
+      "declared_license": "MIT",
+      "notice_files": [
+        "licenses/node/string_decoder-1.1.1/LICENSE"
+      ]
+    },
+    {
+      "name": "util-deprecate",
+      "version": "1.0.2",
+      "declared_license": "MIT",
+      "notice_files": [
+        "licenses/node/util-deprecate-1.0.2/LICENSE"
+      ]
+    },
+    {
+      "name": "setimmediate",
+      "version": "1.0.5",
+      "declared_license": "MIT",
+      "notice_files": [
+        "licenses/node/setimmediate-1.0.5/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "nanoid",
+      "version": "5.1.16",
+      "declared_license": "MIT",
+      "notice_files": [
+        "licenses/node/nanoid-5.1.16/LICENSE"
+      ]
+    },
+    {
+      "name": "xml",
+      "version": "1.0.1",
+      "declared_license": "MIT",
+      "notice_files": [
+        "licenses/node/xml-1.0.1/LICENSE"
+      ]
+    },
+    {
+      "name": "xml-js",
+      "version": "1.6.11",
+      "declared_license": "MIT",
+      "notice_files": [
+        "licenses/node/xml-js-1.6.11/LICENSE"
+      ]
+    },
+    {
+      "name": "sax",
+      "version": "1.6.1",
+      "declared_license": "BlueOak-1.0.0",
+      "notice_files": [
+        "licenses/node/sax-1.6.1/LICENSE.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "verdict": {
+    "score": "Synthetic example 0001",
+    "summary": [
+      "Synthetic example 0002",
+      "Synthetic example 0003",
+      "Synthetic example 0004",
+      "Synthetic example 0005",
+      "Synthetic example 0006"
+    ]
+  },
+  "adversarial": [
+    {
+      "no": "Synthetic example 0007",
+      "title": "Synthetic example 0008",
+      "level": "Synthetic example 0009",
+      "detail": "Synthetic example 0010",
+      "fix": "Synthetic example 0011"
+    },
+    {
+      "no": "Synthetic example 0012",
+      "title": "Synthetic example 0013",
+      "level": "Synthetic example 0014",
+      "detail": "Synthetic example 0015",
+      "fix": "Synthetic example 0016"
+    },
+    {
+      "no": "Synthetic example 0017",
+      "title": "Synthetic example 0018",
+      "level": "Synthetic example 0019",
+      "detail": "Synthetic example 0020",
+      "fix": "Synthetic example 0021"
+    },
+    {
+      "no": "Synthetic example 0022",
+      "title": "Synthetic example 0023",
+      "level": "Synthetic example 0024",
+      "detail": "Synthetic example 0025",
+      "fix": "Synthetic example 0026"
+    },
+    {
+      "no": "Synthetic example 0027",
+      "title": "Synthetic example 0028",
+      "level": "Synthetic example 0029",
+      "detail": "Synthetic example 0030",
+      "fix": "Synthetic example 0031"
+    },
+    {
+      "no": "Synthetic example 0032",
+      "title": "Synthetic example 0033",
+      "level": "Synthetic example 0034",
+      "detail": "Synthetic example 0035",
+      "fix": "Synthetic example 0036"
+    },
+    {
+      "no": "Synthetic example 0037",
+      "title": "Synthetic example 0038",
+      "level": "Synthetic example 0039",
+      "detail": "Synthetic example 0040",
+      "fix": "Synthetic example 0041"
+    },
+    {
+      "no": "Synthetic example 0042",
+      "title": "Synthetic example 0043",
+      "level": "Synthetic example 0044",
+      "detail": "Synthetic example 0045",
+      "fix": "Synthetic example 0046"
+    },
+    {
+      "no": "Synthetic example 0047",
+      "title": "Synthetic example 0048",
+      "level": "Synthetic example 0049",
+      "detail": "Synthetic example 0050",
+      "fix": "Synthetic example 0051"
+    },
+    {
+      "no": "Synthetic example 0052",
+      "title": "Synthetic example 0053",
+      "level": "Synthetic example 0054",
+      "detail": "Synthetic example 0055",
+      "fix": "Synthetic example 0056"
+    },
+    {
+      "no": "Synthetic example 0057",
+      "title": "Synthetic example 0058",
+      "level": "Synthetic example 0059",
+      "detail": "Synthetic example 0060",
+      "fix": "Synthetic example 0061"
+    },
+    {
+      "no": "Synthetic example 0062",
+      "title": "Synthetic example 0063",
+      "level": "Synthetic example 0064",
+      "detail": "Synthetic example 0065",
+      "fix": "Synthetic example 0066"
+    }
+  ],
+  "firstPrinciples": {
+    "axiom": "Synthetic example 0067",
+    "decomposition": [
+      {
+        "k": "Synthetic example 0068",
+        "v": "Synthetic example 0069"
+      },
+      {
+        "k": "Synthetic example 0070",
+        "v": "Synthetic example 0071"
+      },
+      {
+        "k": "Synthetic example 0072",
+        "v": "Synthetic example 0073"
+      },
+      {
+        "k": "Synthetic example 0074",
+        "v": "Synthetic example 0075"
+      },
+      {
+        "k": "Synthetic example 0076",
+        "v": "Synthetic example 0077"
+      },
+      {
+        "k": "Synthetic example 0078",
+        "v": "Synthetic example 0079"
+      }
+    ]
+  },
+  "socratic": [
+    {
+      "q": "Synthetic example 0080",
+      "a": "Synthetic example 0081"
+    },
+    {
+      "q": "Synthetic example 0082",
+      "a": "Synthetic example 0083"
+    },
+    {
+      "q": "Synthetic example 0084",
+      "a": "Synthetic example 0085"
+    },
+    {
+      "q": "Synthetic example 0086",
+      "a": "Synthetic example 0087"
+    },
+    {
+      "q": "Synthetic example 0088",
+      "a": "Synthetic example 0089"
+    },
+    {
+      "q": "Synthetic example 0090",
+      "a": "Synthetic example 0091"
+    },
+    {
+      "q": "Synthetic example 0092",
+      "a": "Synthetic example 0093"
+    },
+    {
+      "q": "Synthetic example 0094",
+      "a": "Synthetic example 0095"
+    }
+  ],
+  "occam": {
+    "intro": "Synthetic example 0096",
+    "cuts": [
+      {
+        "item": "Synthetic example 0097",
+        "why": "Synthetic example 0098",
+        "instead": "Synthetic example 0099"
+      },
+      {
+        "item": "Synthetic example 0100",
+        "why": "Synthetic example 0101",
+        "instead": "Synthetic example 0102"
+      },
+      {
+        "item": "Synthetic example 0103",
+        "why": "Synthetic example 0104",
+        "instead": "Synthetic example 0105"
+      },
+      {
+        "item": "Synthetic example 0106",
+        "why": "Synthetic example 0107",
+        "instead": "Synthetic example 0108"
+      },
+      {
+        "item": "Synthetic example 0109",
+        "why": "Synthetic example 0110",
+        "instead": "Synthetic example 0111"
+      },
+      {
+        "item": "Synthetic example 0112",
+        "why": "Synthetic example 0113",
+        "instead": "Synthetic example 0114"
+      }
+    ],
+    "keeps": [
+      {
+        "item": "Synthetic example 0115",
+        "why": "Synthetic example 0116"
+      },
+      {
+        "item": "Synthetic example 0117",
+        "why": "Synthetic example 0118"
+      },
+      {
+        "item": "Synthetic example 0119",
+        "why": "Synthetic example 0120"
+      },
+      {
+        "item": "Synthetic example 0121",
+        "why": "Synthetic example 0122"
+      }
+    ]
+  },
+  "additions": [
+    {
+      "area": "Synthetic example 0123",
+      "items": [
+        "Synthetic example 0124",
+        "Synthetic example 0125",
+        "Synthetic example 0126"
+      ]
+    },
+    {
+      "area": "Synthetic example 0127",
+      "items": [
+        "Synthetic example 0128",
+        "Synthetic example 0129"
+      ]
+    },
+    {
+      "area": "Synthetic example 0130",
+      "items": [
+        "Synthetic example 0131",
+        "Synthetic example 0132",
+        "Synthetic example 0133",
+        "Synthetic example 0134"
+      ]
+    },
+    {
+      "area": "Synthetic example 0135",
+      "items": [
+        "Synthetic example 0136",
+        "Synthetic example 0137"
+      ]
+    },
+    {
+      "area": "Synthetic example 0138",
+      "items": [
+        "Synthetic example 0139",
+        "Synthetic example 0140",
+        "Synthetic example 0141"
+      ]
+    },
+    {
+      "area": "Synthetic example 0142",
+      "items": [
+        "Synthetic example 0143",
+        "Synthetic example 0144",
+        "Synthetic example 0145"
+      ]
+    },
+    {
+      "area": "Synthetic example 0146",
+      "items": [
+        "Synthetic example 0147",
+        "Synthetic example 0148",
+        "Synthetic example 0149"
+      ]
+    },
+    {
+      "area": "Synthetic example 0150",
+      "items": [
+        "Synthetic example 0151",
+        "Synthetic example 0152",
+        "Synthetic example 0153"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+node_modules/
+__pycache__/
+*.pyc
+.runtime/
+workspace/
+.env*
+private-original-code/
+.venv/
+_site/
+pnpm-lock.yaml

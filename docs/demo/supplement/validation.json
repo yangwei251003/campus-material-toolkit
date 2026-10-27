@@ -1,0 +1,40 @@
+{
+  "synthetic": true,
+  "python": {
+    "synthetic": true,
+    "original_business_assets_used": false,
+    "image_center_identical_after_extension": true,
+    "bleed_center_and_four_corners_identical": true,
+    "physical_pdf_cm": [
+      8,
+      10
+    ],
+    "actual_archived_programs": [
+      {
+        "program": "extract_pdf_assets.py",
+        "exit_code": 0
+      },
+      {
+        "program": "crop_original_panels.py",
+        "exit_code": 0
+      }
+    ],
+    "unique_pdf_images_extracted": 1,
+    "pdf_alpha_preserved": true,
+    "pdf_panels": 6,
+    "input_pdf_unchanged": true,
+    "extension_limitation": "Wide source images may be clipped; this demonstration uses a narrow portrait.",
+    "Word_Office_network_download": false
+  },
+  "node": {
+    "synthetic": true,
+    "original_media_fonts_business_copy": false,
+    "exact_preserved_svg_functions": 10,
+    "icon_kinds": 13,
+    "actual_sharp_render": [
+      960,
+      720
+    ],
+    "xml_escaping_passed": true
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "script_count": 21,
+  "python": 20,
+  "javascript": 1,
+  "input_html_excluded": 2,
+  "public_versions": "Data-redacted adaptations; not byte-exact business sources, and not drop-in replacements for original material data",
+  "scripts": [
+    {
+      "path": "workflows/club/package_posters.py",
+      "kind": "local workflow; business inputs/literals replaced",
+      "original_bytes_preserved_privately": true,
+      "function_class_names": [],
+      "control_structure_counts": {
+        "If": 0,
+        "For": 3,
+        "While": 0,
+        "Try": 0,
+        "With": 4,
+        "Assert": 3
+      },
+      "control_counts_equal_original": true
+    },
+    {
+      "path": "workflows/club/render.py",
+      "kind": "local workflow; business inputs/literals replaced",
+      "original_bytes_preserved_privately": true,
+      "function_class_names": [],
+      "control_structure_counts": {
+        "If": 0,
+        "For": 1,
+        "While": 0,
+        "Try": 1,
+        "With": 0,
+        "Assert": 0
+      },
+      "control_counts_equal_original": true
+    },
+    {
+      "path": "workflows/club/render_revised.py",
+      "kind": "local workflow; business inputs/literals replaced",
+      "original_bytes_preserved_privately": true,
+      "function_class_names": [],
+      "control_structure_counts": {
+        "If": 0,
+        "For": 1,
+        "While": 0,
+        "Try": 1,
+        "With": 0,
+        "Assert": 0
+      },
+      "control_counts_equal_original": true
+    },
+    {
+      "path": "workflows/club/render_teacher.py",
+      "kind": "local workflow; business inputs/literals replaced",
+      "original_bytes_preserved_privately": true,
+      "function_class_names": [],
+      "control_structure_counts": {
+        "If": 0,
+        "For": 1,
+        "While": 0,
+        "Try": 1,
+        "With": 0,
+        "Assert": 0
+      },
+      "control_counts_equal_original": true
+    },
+    {
+      "path": "workflows/club/save_posters.py",
+      "kind": "local workflow; business inputs/literals replaced",
+      "original_bytes_preserved_privately": true,
+      "function_class_names": [],
+      "control_structure_counts": {
+        "If": 0,
+        "For": 1,
+        "While": 0,
+        "Try": 0,
+        "With": 0,
+        "Assert": 0
+      },
+      "control_counts_equal_original": true
+    },
+    {
+      "path": "workflows/event/assemble_final_delivery.py",
+      "kind": "local workflow; business inputs/literals replaced",
+      "original_bytes_preserved_privately": true,
+      "function_class_names": [],
+      "control_structure_counts": {
+        "If": 6,
+        "For": 9,
+        "While": 0,
+        "Try": 0,
+        "With": 9,
+        "Assert": 15
+      },
+      "control_counts_equal_original": true
+    },
+    {
+      "path": "workflows/event/build_pdf.py",
+      "kind": "local workflow; business inputs/literals replaced",
+      "original_bytes_preserved_privately": true,
+      "function_class_names": [
+        "style",
+        "p",
+        "draw",
+        "banner"
+      ],
+      "control_structure_counts": {
+        "If": 9,
+        "For": 3,
+        "While": 0,
+        "Try": 0,
+        "With": 0,
+        "Assert": 0
+      },
+      "control_counts_equal_original": true
+    },
+    {
+      "path": "workflows/event/build_visual_catalog.py",
+      "kind": "local workflow; business inputs/literals replaced",
+      "original_bytes_preserved_privately": true,
+      "function_class_names": [],
+      "control_structure_counts": {
+        "If": 1,
+        "For": 3,
+        "While": 0,
+        "Try": 0,
+        "With": 0,
+        "Assert": 0
+      },
+      "control_counts_equal_original": true
+    },
+    {
+      "path": "workflows/event/mark_visual_status.py",
+      "kind": "local workflow; business inputs/literals replaced",
+      "original_bytes_preserved_privately": true,
+      "function_class_names": [],
+      "control_structure_counts": {
+        "If": 2,
+        "For": 2,
+        "While": 0,
+        "Try": 0,
+        "With": 0,
+        "Assert": 0
+      },
+      "control_counts_equal_original": true
+    },
+    {
+      "path": "workflows/event/package_visual_delivery.py",
+      "kind": "local workflow; business inputs/literals replaced",
+      "original_bytes_preserved_privately": true,
+      "function_class_names": [
+        "ExternalAwareValidator",
+        "paragraphs",
+        "validate_file_references"
+      ],
+      "control_structure_counts": {
+        "If": 3,
+        "For": 4,
+        "While": 0,
+        "Try": 0,
+        "With": 4,
+        "Assert": 10
+      },
+      "control_counts_equal_original": true
+    },
+    {
+      "path": "workflows/event/v31_assemble.py",
+      "kind": "local workflow; business inputs/literals replaced",
+      "original_bytes_preserved_privately": true,
+      "function_class_names": [
+        "digest",
+        "geometry",
+        "place",
+        "outline"
+      ],
+      "control_structure_counts": {
+        "If": 10,
+        "For": 12,
+        "While": 0,
+        "Try": 1,
+        "With": 5,
+        "Assert": 1
+      },
+      "control_counts_equal_original": true
+    },
+    {
+      "path": "workflows/event/v31_finalize.py",
+      "kind": "local workflow; business inputs/literals replaced",
+      "original_bytes_preserved_privately": true,
+      "function_class_names": [
+        "sha"
+      ],
+      "control_structure_counts": {
+        "If": 8,
+        "For": 4,
+        "While": 0,
+        "Try": 0,
+        "With": 2,
+        "Assert": 4
+      },
+      "control_counts_equal_original": true
+    },
+    {
+      "path": "workflows/event/v3_delivery_data.py",
+      "kind": "local workflow; business inputs/literals replaced",
+      "original_bytes_preserved_privately": true,
+      "function_class_names": [
+        "csvout"
+      ],
+      "control_structure_counts": {
+        "If": 11,
+        "For": 5,
+        "While": 0,
+        "Try": 0,
+        "With": 1,
+        "Assert": 1
+      },
+      "control_counts_equal_original": true
+    },
+    {
+      "path": "workflows/event/v3_docs_check.py",
+      "kind": "local workflow; business inputs/literals replaced",
+      "original_bytes_preserved_privately": true,
+      "function_class_names": [
+        "Links",
+        "__init__",
+        "handle_starttag"
+      ],
+      "control_structure_counts": {
+        "If": 2,
+        "For": 4,
+        "While": 0,
+        "Try": 0,
+        "With": 0,
+        "Assert": 4
+      },
+      "control_counts_equal_original": true
+    },
+    {
+      "path": "workflows/event/v3_package.py",
+      "kind": "local workflow; business inputs/literals replaced",
+      "original_bytes_preserved_privately": true,
+      "function_class_names": [],
+      "control_structure_counts": {
+        "If": 1,
+        "For": 3,
+        "While": 0,
+        "Try": 0,
+        "With": 3,
+        "Assert": 7
+      },
+      "control_counts_equal_original": true
+    },
+    {
+      "path": "workflows/event/v3_pdf_compare.py",
+      "kind": "local workflow; business inputs/literals replaced",
+      "original_bytes_preserved_privately": true,
+      "function_class_names": [],
+      "control_structure_counts": {
+        "If": 0,
+        "For": 2,
+        "While": 0,
+        "Try": 0,
+        "With": 0,
+        "Assert": 0
+      },
+      "control_counts_equal_original": true
+    },
+    {
+      "path": "workflows/event/v3_preflight.py",
+      "kind": "local workflow; business inputs/literals replaced",
+      "original_bytes_preserved_privately": true,
+      "function_class_names": [
+        "mat",
+        "walk",
+        "render"
+      ],
+      "control_structure_counts": {
+        "If": 19,
+        "For": 6,
+        "While": 0,
+        "Try": 0,
+        "With": 1,
+        "Assert": 5
+      },
+      "control_counts_equal_original": true
+    },
+    {
+      "path": "workflows/event/vectorize_brand.py",
+      "kind": "local workflow; business inputs/literals replaced",
+      "original_bytes_preserved_privately": true,
+      "function_class_names": [
+        "contours",
+        "write"
+      ],
+      "control_structure_counts": {
+        "If": 3,
+        "For": 2,
+        "While": 0,
+        "Try": 0,
+        "With": 0,
+        "Assert": 0
+      },
+      "control_counts_equal_original": true
+    },
+    {
+      "path": "workflows/event/visual_manifest.py",
+      "kind": "local workflow; business inputs/literals replaced",
+      "original_bytes_preserved_privately": true,
+      "function_class_names": [
+        "add"
+      ],
+      "control_structure_counts": {
+        "If": 0,
+        "For": 4,
+        "While": 0,
+        "Try": 0,
+        "With": 0,
+        "Assert": 1
+      },
+      "control_counts_equal_original": true
+    },
+    {
+      "path": "workflows/organization/build.js",
+      "kind": "local workflow; business inputs/literals replaced",
+      "original_bytes_preserved_privately": true,
+      "core_layout_functions_retained": true,
+      "business_literals_externalized": 459
+    },
+    {
+      "path": "workflows/organization/render.py",
+      "kind": "local workflow; business inputs/literals replaced",
+      "original_bytes_preserved_privately": true,
+      "function_class_names": [],
+      "control_structure_counts": {
+        "If": 0,
+        "For": 2,
+        "While": 0,
+        "Try": 1,
+        "With": 0,
+        "Assert": 0
+      },
+      "control_counts_equal_original": true
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+# Local workflow source; input/business literals replaced with synthetic placeholders.
+import sys as _sys
+from pathlib import Path as _Path
+_sys.path.insert(0, str(_Path(__file__).resolve().parents[2]))
+from public_runtime import runtime
+runtime.configure(word_required=False)
+from pathlib import Path
+import json, sys
+sys.stdout.reconfigure(encoding='utf-8')
+root = Path(runtime.workspace())
+out = root / 'output' / 'DemoCampussample-f1811f58_V1'
+items = []
+
+def add(group, name, aspect, brief, text, logo='all'):
+    items.append(dict(id=f'{len(items) + 1:02d}', group=group, name=name, aspect=aspect, brief=brief, text=text, logo=logo, status='pending'))
+add('sample-e54d2ae9', 'sample-bd3de889', '2:3', 'sample-51b8cd01: sample-e7e9726c5sample-5b75e18a；sample-12e1acaf，sample-6586bd00，sample-667213ab。', 'sample-fa11b51aDemoCampus\nsample-538a0102\nsample-2a74f423，sample-eed6da5c\n2026.10.23—24（sample-1eb2bf07）\nDemoCampus\nsample-91de6f7f · sample-78a66913 · sample-f5346a3f')
+add('sample-e54d2ae9', 'sample-eeb08855', '16:9', 'sample-a35342c0，sample-080463ac，sample-fdaaccd9，sample-f1da1246。', 'DemoEvent\nsample-2a74f423，sample-eed6da5c\n2026.10.23—24（sample-1eb2bf07）')
+add('sample-e54d2ae9', 'sample-8f774913', '2:3', 'sample-0eeb71dd，sample-eeed3376，sample-af646a00，sample-fcd359153sample-f9d072c4，sample-b3990beb。', 'sample-24a3b9ba，sample-10e678d6！\nsample-ebdf43e3\nsample-0b71f35f3sample-a62a63d9\n13:30—14:50 / 14:50—16:10 / 16:10—17:30\nsample-9925e381\nsample-ec4a39cc')
+add('sample-e54d2ae9', 'sample-95a52bbd', '2:3', 'sample-119597f8，sample-f8e57613、sample-8b174f00，sample-d748cc84；sample-ae5c31633sample-f9d072c4。', 'sample-41cbc9ca\nsample-5f8dd95d\nsample-86e5da17 · sample-a3f157bf · sample-5f98e87d\nsample-ee35e482 · sample-b5c72087 · sample-7771eaf8\nsample-2ade55b1\nsample-34af427f')
+for n in [3, 2, 1]:
+    add('sample-e54d2ae9', f'sample-a7cefeb0{n}sample-49da61ce', '4:5', f'sample-9400a4e0{n}sample-35b5a2cf，sample-a063754c，sample-30df57a7。', f'sample-a7cefeb0 {n} sample-49da61ce\nDemoEvent\nsample-2a74f423，sample-eed6da5c\nsample-9955f2af')
+add('sample-e54d2ae9', 'sample-eff4123c', '4:5', 'sample-230cc173，sample-82aacb6e/FPVsample-30464fdb，sample-c84f12df，sample-c9d75bdf。', 'sample-787c9179\nsample-fe605ea3\nsample-4a196158\nsample-680f883b\nFPV PILOT')
+add('sample-e54d2ae9', 'sample-45462e63', '4:5', 'sample-8dc1ee70，1/2/3sample-231ed12d，sample-c3be1317，sample-314ecad3。', 'sample-db4ebd0b\nsample-11740fe5: sample-a61eec24\nsample-43eb2685: sample-a61eec24\nsample-1f86a0ae: sample-a61eec24\nsample-f8a27aa9\nsample-2a74f423，sample-eed6da5c')
+add('sample-e54d2ae9', 'sample-88e8215b', '16:9', 'sample-75211588，sample-9d0d9bc2，sample-96bdc28a，sample-ce4acc0d。', 'sample-bd9931a9\nDemoEvent\nsample-976d04d8')
+add('sample-e54d2ae9', 'sample-d3416359', '16:9', 'sample-cd088db2，sample-b732dbaf，sample-6bab96ea，sample-222e1a58，sample-888f30c6。', 'sample-0c429086\nsample-62c695aa\nDemoEvent')
+add('sample-e54d2ae9', 'sample-babb0e59', '4:5', 'sample-0bc5790c，sample-ba002326，sample-e117d97c。', 'sample-75aed8da\nsample-c67ccd16\nsample-d9664bb1，sample-c9384c9b')
+add('sample-e54d2ae9', 'sample-ec5589cf', '4:5', 'sample-fc880fd8，sample-9fcdc8e7、sample-9c99841fFPVsample-e4919ea3，sample-b61c1763，sample-7f92dd52。', 'sample-a0e77550，sample-613e7850\nDemoCampussample-6a2623d7\nFPVsample-ea7c82d3\nsample-976cceee · sample-c357b1a7 · sample-819be962\nsample-8eb9017a', 'schoolclub')
+for v, b in [('A_sample-51f2e71c', 'sample-e23bc23d、sample-a6525e93、sample-3af05768，sample-057b2e8e。'), ('B_sample-adc7bdae', 'sample-c5ec13d9，sample-55fb7aec，sample-b1b5027b，sample-d51ad7dc。'), ('C_sample-52dd1b85', 'sample-f0dffb8f，sample-cb49d4d7，sample-10aaf392。')]:
+    add('sample-fced2ed0', f'sample-b13b5654_{v}', '3:2', f'sample-56c255e16sample-4bb8f145×4sample-e0be8562，sample-f118b2dc，{b}sample-866c5ecd，logosample-8113e106。', 'sample-fa11b51aDemoCampus\nsample-538a0102\nsample-2a74f423，sample-eed6da5c\nsample-1a9b170dDemoCampussample-71281ba4')
+add('sample-9b1eae1f', 'sample-4b7ff758', '1:2', 'sample-6145a19f80×180cmsample-a2012c44，sample-c25ea509，sample-5f54408b。', 'DemoCampussample-6a2623d7\nsample-a0e77550，sample-613e7850\nsample-048f35b3 · sample-7de1d17f · sample-e3ddcf04 · sample-d09eae46\nsample-ddb92953，sample-b0c7ce0d\nsample-cc660b59', 'schoolclub')
+add('sample-9b1eae1f', 'sample-6d0bdd4f', '1:2', 'sample-6798c728，sample-628d4530，sample-e9393876，sample-f6490d3f。', 'sample-363059bc\nsample-43d5ce12 · sample-c7ce041c · sample-8392ccea\nsample-584a13e0', 'school')
+add('sample-9b1eae1f', 'sample-db2d7c31', '1:2', 'DemoBrandsample-de1d5dd0DemoMarksample-86801524，sample-5517abeb，sample-548ee26d。', 'DemoBrand\nDemoMark FPV CLUB\nsample-ce3f7105 · sample-6b41f139 · sample-0b1023a4\nsample-357aef8f，sample-1c2c5e7f', 'companyclub')
+for name, text, brief in [('KTsample-7483f8ec_sample-700bd894', 'sample-d5f5a7a0，sample-26e19062', 'sample-c11dc3ea，sample-754b7c4c，sample-f64a20ce'), ('KTsample-7483f8ec_sample-2376c52c', 'sample-2376c52c，sample-46ddcdab', 'sample-5a208410，sample-ebefe514，sample-b8722484'), ('KTsample-7483f8ec_sample-2a74f423', 'sample-2a74f423', 'sample-be2b40f0，sample-86b5042d'), ('KTsample-7483f8ec_sample-eed6da5c', 'sample-eed6da5c', 'sample-8098ad64，sample-37b1b714，sample-f4d3372f'), ('KTsample-7483f8ec_FPVsample-e4919ea3', 'FPV', 'sample-c428c08dKTsample-7483f8ec，sample-a2c44d07'), ('KTsample-7483f8ec_DemoMarksample-a7c75dfe', 'DemoMark FPV CLUB', 'sample-ba15f39f，sample-011c5991')]:
+    add('KTsample-7483f8ec', name, '3:2', f'sample-87b7d135KTsample-ce527f48，sample-acea33c7，sample-22eb8f85；{brief}。', text, 'club' if 'DemoMark' in name else 'schoolclub')
+add('sample-b3f69017', 'sample-3cc6de33', '2:3', 'sample-29097ffe，sample-36bfff96，sample-ac455008，sample-aa0697f2；sample-24a9e0e0。', 'DemoEvent\nDemoMark FPV CLUB', 'schoolclub')
+add('sample-b3f69017', 'sample-d47cdbea', '3:2', 'sample-d05e4194FPVsample-0c14b527，sample-c675e077、sample-fa34134a、sample-33b8d27d，sample-9b220f3e；sample-417898a6。', 'DemoCampus\nDemoMark FPV CLUB\nsample-2a74f423', 'schoolclub')
+add('sample-b3f69017', 'sample-f9ff1369', '3:2', 'sample-9a59584f，sample-1bef62e4，sample-8713aca7。', 'sample-9cb8ad0f\nRACE DIRECTION  →', 'club')
+add('sample-14956abe', 'sample-5ee61903', '3:2', 'sample-e9fc1bc1，sample-23ecb28c，sample-94636a6c；sample-b1f69b80。', 'sample-9c926ddd\nSTAFF\nDemoEvent\nsample-39a0ae1e: sample-605c6ed6\nsample-fc147721: S-001\nsample-98d67157', 'all')
+add('sample-14956abe', 'sample-1a5bb9d3', '3:2', 'sample-8da7745f，sample-ff2a1ce9，sample-0518aaf4，sample-b194450aPolosample-191a64ea，sample-9fba95cf。', 'sample-9c926ddd\nSTAFF\nDemoMark FPV', 'club')
+add('sample-14956abe', 'sample-1b3f0175', '3:2', 'sample-8f06aea6，sample-1b8f78e5PVC，sample-5eeca2cd，sample-6a7339bblogo，sample-bdcabaf6。', 'PILOT 01\nsample-fe605ea3\nDemoCampussample-89d77ddc', 'club')
+signs = [('sample-1af47df9', 'sample-1a793027 · sample-347fa28b', 'sample-cc6e0603，sample-ac60ce97'), ('sample-793640adA', 'sample-5faa5745 A', 'sample-124984bf，sample-7e46a24e'), ('sample-793640adB', 'sample-5faa5745 B', 'sample-124984bf，sample-cc6e0603'), ('sample-ee35e482', 'sample-ee35e482', 'sample-6ee03c85，sample-7e46a24e'), ('sample-73a7035c', 'sample-73a7035c', 'sample-fa9258c2，sample-87cc9e2e，sample-aa5669d3，sample-663fce6a'), ('sample-70160900', 'sample-70160900', 'sample-276d8acb，sample-10e262a3'), ('sample-6e8d3193', 'sample-6e8d3193', 'sample-692216e2，sample-7e46a24e'), ('sample-92af5161', 'sample-92af5161', 'sample-5155f27d，sample-8984a951'), ('sample-08920bbe', 'sample-87dba5d7\nsample-67f2fd24', 'sample-ede0ffe4，sample-c83172b3，sample-91f26e7d'), ('sample-1d7b35e9', 'sample-1d7b35e9', 'sample-6535f3b2')]
+for n, t, b in signs:
+    add('sample-6dbbdd9e', f'sample-4020e2a8_{n}', '3:2', f'sample-55c75e5d，sample-59da8e72，sample-df47db3d，sample-9cc411ec；{b}，sample-b971d70clogosample-fcef9834。', t, 'club')
+add('sample-6dbbdd9e', 'sample-458f2e04', '3:2', 'sample-f23af13a，sample-0b3ed716，sample-d62beea5；sample-8e182c0a，sample-8f90f013，sample-0424ed7e。sample-f2226064，sample-75fa59e3。', 'sample-0dfef601\nsample-1af47df9 / sample-793640adA / sample-793640adB / sample-7bdd402c\nsample-dca1f61f / sample-9e943100 / sample-a2b33ea6\nsample-4be89e4b，sample-7e4621c4', 'all')
+add('sample-6dbbdd9e', 'sample-f2783946', '3:2', 'sample-081914c2，sample-eb182fdf，sample-781984af、sample-d952d836、sample-fdcd1bd0、sample-e4c2354a；sample-7964db09。', 'sample-ce6810ec\nsample-530308de: sample-483ca216\nsample-dd649343: sample-2c30067f\nsample-839a470f: sample-fb90fb3d\nsample-88367e56: sample-ba0049c7', 'schoolclub')
+add('sample-6dbbdd9e', 'sample-8073fac7', '3:2', 'sample-521491ed，sample-48821f10，sample-4c1bfed1，sample-fd1a7461。', 'sample-0b19b1fd（sample-1eb2bf07）\n13:30 sample-2c51bc76\n14:00 sample-23622fbf\n14:15 sample-b9199de9\n15:10 sample-bc40beef\n15:25 sample-d7b43496\n16:25 sample-327be124\n17:05 sample-7f7051b6', 'all')
+add('sample-be24524d', 'sample-b801d2f9', '3:2', 'sample-5d13d439，sample-1a8b2656，sample-30596d12；sample-1eee23ef，sample-28c15353DemoMarksample-57ac8c8b，sample-09628102，sample-0376ed83。', 'DemoMark FPV CLUB\nsample-2a74f423，sample-eed6da5c', 'all')
+add('sample-be24524d', 'sample-9c926dddPolosample-5eff01e9', '3:2', 'sample-2498e450Polosample-f81d0cdd，sample-34229935，sample-e8761d92，sample-14d1574c、sample-826e9801，sample-198283f6logo。', 'sample-9c926ddd\nSTAFF\nDemoMark FPV CLUB', 'all')
+add('sample-c70b8d50', 'logosample-20f9c680', '3:2', 'sample-5d5b9a4b/sample-7700e965，sample-eeffc55e，sample-af83ad6a、sample-09f7f588logosample-260cca38，sample-dac2fa8a。', 'sample-2a74f423\nsample-eed6da5c\nDemoMark FPV CLUB', 'schoolclub')
+add('sample-c70b8d50', 'sample-a1738480', '3:2', 'A5sample-91d6db58，sample-73712c66，sample-d5ab179flogosample-b418dabb，sample-c3225a18，sample-d43ca478。', 'DemoMark FPV CLUB\nsample-2a74f423，sample-eed6da5c', 'club')
+add('sample-c70b8d50', 'sample-7a47c645', '3:2', 'sample-2a5d0130，sample-6342c40f: sample-f45ae738、sample-40b069a7、FPVsample-e4919ea3、sample-40ce5f33、sample-768ad41b；sample-07588c91。', 'sample-2a74f423\nsample-eed6da5c\nDemoMark FPV CLUB\n2026', 'schoolclub')
+add('sample-a9b1f147', 'sample-79439e38', '3:2', 'sample-cd46d0de，sample-ae3528db，sample-6fac5edd、sample-ea7944d5；sample-22708f01logo，sample-e53610f4。', 'DemoEvent\nsample-11740fe5\n2026', 'schoolclub')
+add('sample-a9b1f147', 'sample-9aa38337', '3:2', 'A4sample-aa150870，sample-7d11f22a、sample-e300d111，sample-af0f38eclogosample-6f2a4a02，sample-7565d827，sample-b43ca552/sample-ded77ca0。', 'sample-c3f5448c\nDemoEvent\nsample-35927c12: ________\nsample-2a3c7087: ________\nsample-70d0c1b3: ________\nsample-22ab88b3', 'all')
+assert len(items) == 51, len(items)
+(out / 'manifest.json').write_text(json.dumps(items, ensure_ascii=False, indent=2), encoding='utf-8')
+md = ['# sample-e7374dcc', '', 'sample-76e547a851sample-c2ec5cdf，sample-875a8fc2Wordsample-af50a0fe04、05sample-9cc73510。sample-c0af5dd6，sample-1064fd19。', '', 'sample-6f2beb71: sample-a3150348、sample-7d586b71、sample-6709b586；sample-a5a488ee、sample-781984af、sample-7d1a3a6a、sample-077e32a5。sample-351f937c，sample-50b5b1d2、sample-fdcd1bd0、sample-7b50017a、sample-b7ae9c85。', '', '|sample-fc147721|sample-0d12cbd6|sample-d24c10d3|sample-82a59f3d|sample-6320b4a8|', '|---|---|---|---|---|']
+md += [f'|{i['id']}|{i['group']}|{i['name']}|{i['aspect']}|pending|' for i in items]
+md += ['', '## sample-1a84303f', '', '- sample-7f0c14f8Wordsample-e302a334100sample-98c5b28e/30sample-57b1381b，sample-7e73fa6e100sample-51a5d681/34sample-20d04e89。sample-04abf08f，sample-10742c5b。', '- logosample-104eb9f1、sample-409d0719、sample-0aeca406，sample-1476e819。', '- sample-5f0e4156；sample-5ae86f7c、sample-4c0b38c4，sample-88581397。', '- sample-c6f305e9: MultiGPsample-a5454d07 https://example.invalid/reference https://example.invalid/reference']
+(out / 'sample-3e0969f8.md').write_text('\n'.join(md), encoding='utf-8')
+(out / 'sample-b341b84a.md').write_text('# sample-b341b84a\n\nsample-28aeddfb: sample-95e35aabimagegensample-4fefd64451sample-f56a049f，sample-f53a654cWord。sample-bb9083a2，sample-06d6920blogosample-8f6f8d97。sample-a50ffab1manifest.json。sample-0d6079dbimagessample-6aeab78b。sample-8e0af720，sample-2c6068a7。\n', encoding='utf-8')
+print('manifest', len(items), out)

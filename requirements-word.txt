@@ -1,0 +1,2 @@
+# Optional, Windows + licensed Microsoft Word; not exercised in this migration
+pywin32>=310

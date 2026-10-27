@@ -1,0 +1,13 @@
+{
+  "synthetic": true,
+  "generator_programs": 2,
+  "original_input_values_used": false,
+  "docx": {
+    "zip_entries": 26,
+    "paragraphs": 1657,
+    "tables": 33,
+    "embedded_media": 0,
+    "zip_crc_passed": true
+  },
+  "Word_rendering_tested": false
+}

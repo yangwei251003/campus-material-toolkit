@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Synthetic field_0004 · EXAMPLE Synthetic field_0005</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+--navy:#0B3C5D; --navy2:#134F76; --blue:#1B6CA8; --blue-l:#E8F2F9;
+--orange:#E8730C; --orange-l:#FDF0E6;
+--ink:#1A2530; --ink2:#42525F; --ink3:#6B7C8A;
+--line:#DDE5EC; --bg:#F5F8FA; --white:#fff;
+--green:#0E7A5F; --green-l:#E6F5F0;
+--red:#C0392B; --red-l:#FDECEA; --amber:#B5710A; --amber-l:#FDF5E3;
+}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB","Source Han Sans SC",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:15px;-webkit-font-smoothing:antialiased}
+/* ===== Synthetic field_0474 ===== */
+.cover{background:linear-gradient(135deg,#0B3C5D 0%,#134F76 55%,#1B6CA8 100%);color:#fff;padding:54px 60px 46px;position:relative;overflow:hidden}
+.cover::after{content:"";position:absolute;right:-60px;top:-60px;width:360px;height:360px;border:1px solid rgba(255,255,255,.13);border-radius:50%}
+.cover::before{content:"";position:absolute;right:40px;bottom:-120px;width:280px;height:280px;border:1px solid rgba(255,255,255,.10);border-radius:50%}
+.cv-eyebrow{font-size:13px;letter-spacing:3px;color:#9FC6E0;margin-bottom:14px}
+.cv-h1{font-size:36px;font-weight:700;letter-spacing:1px;line-height:1.3}
+.cv-h2{font-size:19px;color:#BBD9EE;margin-top:12px;font-weight:400}
+.cv-meta{display:flex;flex-wrap:wrap;gap:28px;margin-top:30px;position:relative;z-index:2}
+.cv-m div{font-size:13px;color:#9FC6E0}.cv-m b{display:block;font-size:15px;color:#fff;font-weight:600;margin-top:3px}
+/* ===== Synthetic field_0475 ===== */
+.wrap{display:flex;align-items:flex-start;max-width:1560px;margin:0 auto}
+.side{width:236px;flex:0 0 236px;position:sticky;top:0;height:100vh;overflow-y:auto;background:var(--white);border-right:1px solid var(--line);padding:22px 0}
+.side-t{font-size:12px;color:var(--ink3);letter-spacing:1px;padding:0 22px 10px;font-weight:700}
+.side a{display:block;padding:9px 22px;color:var(--ink2);text-decoration:none;font-size:14px;border-left:3px solid transparent;transition:.15s}
+.side a:hover{background:var(--blue-l);color:var(--blue);border-left-color:var(--blue)}
+.main{flex:1;min-width:0;padding:34px 46px 80px}
+/* ===== Synthetic field_0476 ===== */
+.sec{margin-bottom:52px;scroll-margin-top:16px}
+.sec-head{display:flex;gap:16px;align-items:flex-start;padding-bottom:16px;border-bottom:2px solid var(--navy);margin-bottom:24px}
+.sec-num{font-size:26px;font-weight:800;color:var(--orange);line-height:1;font-family:Georgia,serif}
+.sec-head h2{font-size:24px;color:var(--navy);letter-spacing:.5px}
+.sec-sub{font-size:14px;color:var(--ink3);margin-top:5px}
+h3.h3{font-size:18px;color:var(--navy2);margin:30px 0 14px;padding-left:11px;border-left:4px solid var(--orange)}
+h4.h4{font-size:15px;color:var(--navy2);margin:20px 0 10px}
+.lead{color:var(--ink2);margin-bottom:14px;font-size:14px}
+.note{background:var(--blue-l);border-left:4px solid var(--blue);padding:13px 16px;border-radius:0 6px 6px 0;font-size:14px;color:#1F4B68;margin:12px 0}
+.note.mt{margin-top:16px}
+.alert{background:var(--red-l);border-left:4px solid var(--red);padding:15px 18px;border-radius:0 6px 6px 0;font-size:14px;color:#7D2B22;margin-top:18px}
+.card{background:var(--white);border:1px solid var(--line);border-radius:10px;padding:22px;margin:14px 0}
+ul.bullets,ul.mini{margin:8px 0 8px 20px}
+ul.bullets li{margin-bottom:7px;font-size:14px}
+ul.mini li{margin-bottom:5px;font-size:13px;list-style:none;position:relative;padding-left:12px}
+ul.mini li::before{content:"·";position:absolute;left:0;color:var(--blue);font-weight:700}
+/* ===== Synthetic field_0477 ===== */
+.tb{width:100%;border-collapse:collapse;background:var(--white);font-size:13.5px;margin:12px 0;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.tb th{background:var(--navy);color:#fff;padding:11px 12px;text-align:left;font-weight:600;font-size:13px}
+.tb td{padding:11px 12px;border-top:1px solid var(--line);vertical-align:top;color:var(--ink2)}
+.tb tbody tr:nth-child(even){background:#FAFCFD}
+.tb tbody tr:hover{background:var(--blue-l)}
+.tb-swot th{background:var(--navy2)}
+.tb-budget td:nth-child(5),.tb-budget td:nth-child(6){text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.tb-budget td:nth-child(4){text-align:center}
+/* ===== Synthetic field_0478 ===== */
+.kpi-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin:6px 0 10px}
+.kpi{background:linear-gradient(160deg,#134F76,#1B6CA8);color:#fff;border-radius:10px;padding:18px 20px}
+.kpi-n{font-size:30px;font-weight:800;font-family:Georgia,serif;line-height:1.1}
+.kpi-n span{font-size:15px;font-weight:600;margin-left:3px}
+.kpi-l{font-size:12.5px;color:#BBD9EE;margin-top:6px}
+.phase-strip{display:flex;flex-wrap:wrap;gap:10px;margin:6px 0 4px}
+.ps{background:var(--white);border:1px solid var(--line);border-top:3px solid var(--orange);border-radius:8px;padding:11px 15px;min-width:150px}
+.ps-id{font-family:Georgia,serif;font-weight:800;color:var(--orange);font-size:17px}
+.ps-name{font-weight:700;color:var(--navy);font-size:14px;margin-top:2px}
+.ps-date{font-size:12px;color:var(--ink3);margin-top:3px}
+.funnel{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:12px}
+.fn{background:var(--white);border:1px solid var(--line);border-radius:9px;padding:15px 16px;position:relative}
+.fn-k{display:inline-block;background:var(--navy);color:#fff;font-size:11.5px;padding:2px 9px;border-radius:4px;margin-bottom:9px}
+.fn-m{font-size:13.5px;font-weight:600;color:var(--ink)}
+.fn-t{font-size:17px;font-weight:800;color:var(--orange);margin:5px 0 6px;font-family:Georgia,serif}
+.fn-n{font-size:12px;color:var(--ink3);line-height:1.6}
+.three{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin-top:8px}
+.th{background:var(--white);border:1px solid var(--line);border-radius:9px;padding:17px 19px}
+.th-t{font-weight:700;color:var(--navy);font-size:15px;margin-bottom:7px}
+.th p{font-size:13.5px;color:var(--ink2)}
+/* ===== Synthetic field_0479 ===== */
+.verdict{display:flex;gap:26px;flex-wrap:wrap;align-items:flex-start}
+.vd-score{background:linear-gradient(160deg,#B5710A,#E8730C);color:#fff;padding:16px 20px;border-radius:9px;font-weight:700;font-size:15px;min-width:210px;line-height:1.8}
+.vd-list{flex:1;min-width:320px;margin-left:18px}
+.vd-list li{margin-bottom:9px;font-size:14px;color:var(--ink2)}
+.lvl{display:inline-block;padding:2px 8px;border-radius:4px;font-size:11.5px;font-weight:700;white-space:nowrap}
+.lvl-f{background:var(--red-l);color:var(--red)}
+.lvl-h{background:var(--amber-l);color:var(--amber)}
+.lvl-m{background:var(--blue-l);color:var(--blue)}
+.tb-risk td:nth-child(3),.tb-risk td:nth-child(4){font-size:13px}
+.axiom{background:var(--orange-l);border-left:4px solid var(--orange);padding:13px 16px;border-radius:0 6px 6px 0;margin-bottom:14px;font-size:14.5px}
+.sq{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:12px}
+.sq-item{background:var(--white);border:1px solid var(--line);border-radius:9px;padding:14px 17px}
+.sq-q{font-weight:700;color:var(--navy);font-size:14.5px;margin-bottom:7px}
+.sq-q::before{content:"Q  ";color:var(--orange);font-family:Georgia,serif}
+.sq-a{font-size:13.5px;color:var(--ink2)}
+.sq-a::before{content:"A  ";color:var(--blue);font-family:Georgia,serif;font-weight:700}
+.occam{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.oc-col{background:var(--white);border:1px solid var(--line);border-radius:10px;padding:18px}
+.oc-cut{border-top:3px solid var(--red)}
+.oc-keep{border-top:3px solid var(--green)}
+.oc-h{font-weight:800;color:var(--navy);font-size:15px;margin-bottom:12px;padding-bottom:9px;border-bottom:1px dashed var(--line)}
+.oc-item{margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid #F0F4F7}
+.oc-item:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
+.oc-t{font-weight:700;color:var(--ink);font-size:14px}
+.oc-w{font-size:13px;color:var(--ink3);margin:4px 0 6px}
+.oc-i{font-size:13px;color:var(--green);background:var(--green-l);padding:7px 10px;border-radius:5px}
+/* ===== Synthetic field_0388 ===== */
+.add-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+.add-card{background:var(--white);border:1px solid var(--line);border-radius:9px;padding:16px 18px}
+.add-h{font-weight:800;color:var(--navy);font-size:15px;margin-bottom:10px;padding-bottom:8px;border-bottom:2px solid var(--blue-l)}
+.add-card ul{margin-left:18px}
+.add-card li{font-size:13.5px;color:var(--ink2);margin-bottom:7px}
+.tag-star{display:inline-block;background:var(--green-l);color:var(--green);font-size:11px;padding:1px 7px;border-radius:4px;margin-right:6px;font-weight:700;white-space:nowrap}
+.tag-add{display:inline-block;background:var(--orange-l);color:var(--orange);font-size:11px;padding:1px 7px;border-radius:4px;margin-right:6px;font-weight:700;white-space:nowrap}
+/* ===== Synthetic field_0480 ===== */
+.ident{background:linear-gradient(120deg,#0B3C5D,#1B6CA8);color:#fff;padding:18px 22px;border-radius:9px;font-size:14.5px;line-height:1.85}
+.biz{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.biz-card{background:var(--white);border:1px solid var(--line);border-radius:9px;padding:17px 19px;border-top:3px solid var(--blue)}
+.biz-tag{display:inline-block;background:var(--blue-l);color:var(--blue);font-size:11.5px;font-weight:700;padding:2px 9px;border-radius:4px}
+.biz-name{font-size:16px;font-weight:700;color:var(--navy);margin:9px 0 8px}
+.biz-desc{font-size:13.5px;color:var(--ink2);margin-bottom:10px}
+.biz-facts{font-size:12.5px;color:var(--ink3);background:#FAFCFD;padding:9px 11px;border-radius:5px;border-left:3px solid var(--orange)}
+.north{background:var(--orange-l);border-left:4px solid var(--orange);padding:14px 18px;border-radius:0 6px 6px 0;font-size:14.5px}
+.hl{color:var(--orange);font-weight:700}
+/* ===== Synthetic field_0481 ===== */
+.per-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:13px}
+.per{background:var(--white);border:1px solid var(--line);border-radius:9px;padding:15px 18px}
+.per-h{display:flex;justify-content:space-between;align-items:center;padding-bottom:8px;border-bottom:1px dashed var(--line);margin-bottom:9px}
+.per-n{font-weight:800;color:var(--navy);font-size:15px}
+.per-r{font-size:12px;color:#fff;background:var(--blue);padding:2px 9px;border-radius:11px}
+.per-tr,.per-st{font-size:13.5px;color:var(--ink2);margin-bottom:7px}
+.per-sc{font-size:13px;color:var(--ink3);background:var(--blue-l);padding:9px 11px;border-radius:5px;font-style:italic}
+/* ===== Synthetic field_0482 ===== */
+.core-msg{background:linear-gradient(120deg,#134F76,#1B6CA8);color:#fff;font-size:21px;font-weight:700;text-align:center;padding:24px;border-radius:10px;letter-spacing:1px}
+.sl-main{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:10px;margin-bottom:14px}
+.sl-item{background:var(--orange-l);border-left:4px solid var(--orange);padding:12px 16px;border-radius:0 6px 6px 0;font-weight:600;color:#8A4A08;font-size:14.5px}
+.faq details{background:var(--white);border:1px solid var(--line);border-radius:8px;margin-bottom:8px}
+.faq summary{padding:12px 17px;cursor:pointer;font-weight:600;color:var(--navy);font-size:14px;list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::before{content:"＋";color:var(--orange);font-weight:800;margin-right:9px}
+.faq details[open] summary::before{content:"－"}
+.faq details[open] summary{border-bottom:1px solid var(--line);background:var(--blue-l)}
+.faq-a{padding:13px 17px 15px 34px;font-size:13.5px;color:var(--ink2)}
+.prin{background:var(--green-l);border-left:4px solid var(--green);padding:13px 16px;border-radius:0 6px 6px 0;margin-bottom:14px;font-size:14px}
+/* ===== Synthetic field_0483 ===== */
+.rit{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.rit-item{background:var(--white);border:1px solid var(--line);border-left:3px solid var(--navy);border-radius:0 8px 8px 0;padding:14px 17px}
+.rit-t{font-weight:700;color:var(--navy);font-size:14px;margin-bottom:5px}
+.rit-d{font-size:13px;color:var(--ink2)}
+/* ===== Synthetic field_0075 ===== */
+.phase{background:var(--white);border:1px solid var(--line);border-radius:11px;margin-bottom:20px;overflow:hidden}
+.ph-head{display:flex;gap:16px;align-items:center;background:linear-gradient(120deg,#0B3C5D,#1B6CA8);color:#fff;padding:15px 22px}
+.ph-id{font-family:Georgia,serif;font-size:24px;font-weight:800;background:rgba(255,255,255,.16);border-radius:7px;padding:5px 13px}
+.ph-name{font-size:18px;font-weight:700}
+.ph-tag{font-size:11.5px;background:rgba(255,255,255,.2);padding:2px 9px;border-radius:10px;margin-left:8px;font-weight:400}
+.ph-date{font-size:12.5px;color:#BBD9EE;margin-top:3px}
+.ph-body{padding:18px 22px 22px}
+.ph-goal{background:var(--blue-l);padding:11px 15px;border-radius:6px;font-size:14px;color:#1F4B68;margin-bottom:10px}
+.ph-kpi{background:var(--orange-l);padding:11px 15px;border-radius:6px;font-size:13.5px;color:#8A4A08;margin-bottom:16px}
+.ph-kpi ul{margin:6px 0 0 20px}
+.ph-kpi li{display:inline-block;margin-right:16px}
+.ph-grid{display:grid;grid-template-columns:1.35fr 1fr;gap:14px;margin-bottom:14px}
+.ph-box{background:#FAFCFD;border:1px solid var(--line);border-radius:8px;padding:14px 16px}
+.ph-box.ok{background:var(--green-l);border-color:#BFE3D6}
+.ph-box.warn{background:#FFFBF0;border-color:#F0E0BE}
+.ph-box-h{font-weight:800;color:var(--navy);font-size:13.5px;margin-bottom:9px;letter-spacing:.5px}
+.ph-box-h.mt{margin-top:16px}
+.ph-act{list-style:none}
+.ph-act li{font-size:13.5px;color:var(--ink2);margin-bottom:9px;line-height:1.7;padding-left:2px}
+.ph-list{margin-left:17px}
+.ph-list li{font-size:13.5px;color:var(--ink2);margin-bottom:6px}
+.ph-own{font-size:13.5px;color:var(--ink2)}
+.ph-script{background:#FFFBF0;border:1px solid #F0E0BE;border-radius:8px;padding:14px 17px;font-size:13.5px;color:#6B4E10;margin-bottom:14px;line-height:1.85}
+.ph-script .ph-box-h{color:#8A6A15}
+/* ===== Synthetic field_0269 ===== */
+.flyer-wrap{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.flyer{background:var(--white);border:2px dashed var(--blue);border-radius:10px;padding:20px 22px;position:relative;min-height:290px}
+.flyer-side{position:absolute;top:-1px;right:-1px;background:var(--blue);color:#fff;font-size:11px;padding:3px 11px;border-radius:0 8px 0 8px;letter-spacing:1px}
+.fy-head{font-size:20px;font-weight:800;color:var(--navy);line-height:1.5;margin-bottom:8px}
+.fy-sub{font-size:12.5px;color:var(--ink3);margin-bottom:14px}
+.fy-hook{font-size:16px;font-weight:700;color:var(--orange);background:var(--orange-l);padding:11px 14px;border-radius:6px;line-height:1.7}
+.fy-bene{font-size:12.5px;color:var(--ink2);margin:12px 0;line-height:2}
+.fy-qr{text-align:center;border:2px dashed var(--line);padding:18px;border-radius:8px;color:var(--ink3);font-size:13px;margin:12px 0}
+.fy-note{font-size:12px;color:var(--ink3);text-align:center}
+.fy-title{font-size:17px;font-weight:800;color:var(--navy);margin-bottom:12px;padding-bottom:9px;border-bottom:2px solid var(--blue-l)}
+.fy-paths{list-style:none;margin-bottom:12px}
+.fy-paths li{font-size:13px;color:var(--ink2);margin-bottom:10px;padding-left:12px;border-left:3px solid var(--orange);line-height:1.7}
+.fy-paths b{color:var(--navy)}
+.fy-data{background:var(--blue-l);padding:11px 13px;border-radius:6px;font-size:13px;color:#1F4B68;margin-bottom:10px}
+.fy-contact{font-size:12.5px;color:var(--ink3)}
+.wall{display:flex;flex-direction:column;gap:12px}
+.w-item{display:flex;gap:14px;background:var(--white);border:1px solid var(--line);border-radius:9px;padding:15px 18px}
+.w-no{font-family:Georgia,serif;font-weight:800;color:var(--orange);font-size:14px;white-space:nowrap}
+.w-title{font-weight:700;color:var(--navy);font-size:15px;margin-bottom:7px}
+.w-text{font-size:13.5px;color:var(--ink2);line-height:1.85;margin-bottom:9px}
+.w-meta{font-size:12.5px;color:var(--ink3);background:#FAFCFD;padding:7px 11px;border-radius:5px;margin-bottom:6px}
+.w-cta{font-size:12.5px;color:var(--green);background:var(--green-l);padding:7px 11px;border-radius:5px}
+.live{background:var(--white);border:1px solid var(--line);border-radius:9px;padding:16px 19px;margin-bottom:13px}
+.live-h{font-weight:700;color:var(--navy);font-size:15px;margin-bottom:11px;padding-bottom:9px;border-bottom:1px dashed var(--line)}
+.live-when{font-size:12.5px;color:var(--ink3);font-weight:400;margin-left:10px}
+.live-flow{margin-left:20px;margin-bottom:12px}
+.live-flow li{font-size:13.5px;color:var(--ink2);margin-bottom:6px}
+.live-tip{font-size:13px;color:#8A4A08;background:var(--orange-l);padding:10px 13px;border-radius:6px}
+/* ===== Synthetic field_0302 ===== */
+.pt{display:inline-block;background:var(--orange);color:#fff;font-weight:700;font-size:12.5px;padding:2px 10px;border-radius:11px}
+.welcome{background:var(--white);border:1px solid var(--line);border-left:4px solid var(--green);border-radius:0 8px 8px 0;padding:16px 19px;font-size:13.5px;color:var(--ink2);white-space:pre-line;line-height:1.9}
+/* ===== Synthetic field_0329 ===== */
+.bud-sum{background:var(--white);border:2px solid var(--navy);border-radius:10px;padding:16px 22px;margin-top:16px;max-width:520px;margin-left:auto}
+.bs-row{display:flex;justify-content:space-between;padding:7px 0;font-size:14px;border-bottom:1px solid var(--line)}
+.bs-sub{display:flex;justify-content:space-between;padding:5px 0 5px 20px;font-size:13px;color:var(--ink3)}
+.bs-total{display:flex;justify-content:space-between;padding:13px 0 2px;font-size:19px;font-weight:800;color:var(--navy);font-family:Georgia,serif}
+/* ===== Synthetic field_0260 ===== */
+.rt{display:inline-block;background:var(--navy);color:#fff;font-size:11.5px;padding:2px 9px;border-radius:4px;white-space:nowrap}
+.tb-risk2 td:nth-child(4){font-size:13px}
+/* ===== Synthetic field_0484 ===== */
+.end{text-align:center;color:var(--ink3);font-size:13px;padding:34px 0 6px;letter-spacing:1px}
+@media print{
+  .side{display:none}
+  .main{padding:0;max-width:none}
+  body{background:#fff;font-size:11.5pt}
+  .sec{page-break-inside:auto}
+  .phase,.tb,.card,.w-item,.live,.per,.biz-card{page-break-inside:avoid}
+  .cover{padding:30px}
+  h3.h3{page-break-after:avoid}
+}
+@media (max-width:1180px){
+  .side{display:none}
+  .main{padding:24px 20px 60px}
+  .ph-grid,.occam,.flyer-wrap{grid-template-columns:1fr}
+  .cover{padding:36px 24px}
+  .cv-h1{font-size:26px}
+}
+</style>
+<style data-portable-demo="mobile-tables">@media(max-width:700px){.tb{width:100%;table-layout:fixed}.tb th,.tb td{overflow-wrap:anywhere}}</style></head>
+<body><aside style="padding:16px 24px;background:#032b41;color:#fff;font:16px/1.5 system-ui;max-width:100%;box-sizing:border-box">SYNTHETIC DEMONSTRATION · Newly fabricated input. No original budget, personnel information or business copy is included.</aside>
+
+<header class="cover">
+  <div class="cv-eyebrow">Synthetic field_0002 · Synthetic field_0003</div>
+  <h1 class="cv-h1">Synthetic field_0004 · EXAMPLE Synthetic field_0005</h1>
+  <div class="cv-h2">Synthetic field_0006 · Synthetic field_0007 · Synthetic field_0008 · Synthetic field_0009</div>
+  <div class="cv-meta">
+    <div class="cv-m"><div>Synthetic field_0012</div><b>Synthetic field_0013</b></div>
+    <div class="cv-m"><div>Synthetic field_0015</div><b>Synthetic field_0016 · Synthetic field_0017 · Synthetic field_0018 · Synthetic field_0019 · Synthetic field_0020</b></div>
+    <div class="cv-m"><div>Synthetic field_0021</div><b>EXAMPLE — Synthetic field_0025</b></div>
+    <div class="cv-m"><div>Synthetic field_0033</div><b>¥ 33</b></div>
+    <div class="cv-m"><div>Synthetic field_0038</div><b>V2.EXAMPLE（Synthetic field_0039）</b></div>
+  </div>
+</header>
+
+<div class="wrap">
+  <nav class="side">
+    <div class="side-t">Synthetic field_0040 Synthetic field_0041</div>
+    <a href="#sum">Synthetic field_0049</a><a href="#review">Synthetic field_0108</a><a href="#added">Synthetic field_0388</a><a href="#bg">Synthetic field_0389</a><a href="#obj">Synthetic field_0174</a><a href="#persona">Synthetic field_0182</a><a href="#msg">Synthetic field_0390</a><a href="#org">Synthetic field_0391</a><a href="#phase">Synthetic field_0392</a><a href="#content">Synthetic field_0269</a><a href="#ops">Synthetic field_0393</a><a href="#budget">Synthetic field_0317</a><a href="#risk">Synthetic field_0394</a><a href="#data">Synthetic field_0395</a><a href="#appx">Synthetic field_0379</a>
+  </nav>
+  <main class="main">
+    
+<section id="sum" class="sec">
+  <div class="sec-head"><span class="sec-num">EXAMPLE</span><div><h2>Synthetic field_0049</h2><p class="sec-sub">Synthetic field_0396 EXAMPLE Synthetic field_0397：Synthetic field_0053、Synthetic field_0054、Synthetic field_0055、Synthetic field_0056</p></div></div>
+
+  <div class="kpi-row">
+    <div class="kpi"><div class="kpi-n">EXAMPLE<span>Synthetic field_0029</span></div><div class="kpi-l">Synthetic field_0028（Synthetic field_0060 EXAMPLE Synthetic field_0061）</div></div>
+    <div class="kpi"><div class="kpi-n">EXAMPLE<span>Synthetic field_0029</span></div><div class="kpi-l">Synthetic field_0398 / Synthetic field_0399</div></div>
+    <div class="kpi"><div class="kpi-n">EXAMPLE<span>Synthetic field_0029</span></div><div class="kpi-l">Synthetic field_0400</div></div>
+    <div class="kpi"><div class="kpi-n">¥33</div><div class="kpi-l">Synthetic field_0401（Synthetic field_0034 EXAMPLE Synthetic field_0402）</div></div>
+  </div>
+
+  <h3 class="h3">Synthetic field_0073</h3>
+  <div class="phase-strip"><div class="ps">
+    <div class="ps-id">synthetic-id-458</div>
+    <div class="ps-name">Synthetic example 0459</div>
+    <div class="ps-date">Synthetic example 0460</div>
+  </div><div class="ps">
+    <div class="ps-id">synthetic-id-510</div>
+    <div class="ps-name">Synthetic example 0511</div>
+    <div class="ps-date">Synthetic example 0512</div>
+  </div><div class="ps">
+    <div class="ps-id">synthetic-id-550</div>
+    <div class="ps-name">Synthetic example 0551</div>
+    <div class="ps-date">Synthetic example 0552</div>
+  </div><div class="ps">
+    <div class="ps-id">synthetic-id-591</div>
+    <div class="ps-name">Synthetic example 0592</div>
+    <div class="ps-date">Synthetic example 0593</div>
+  </div><div class="ps">
+    <div class="ps-id">synthetic-id-635</div>
+    <div class="ps-name">Synthetic example 0636</div>
+    <div class="ps-date">Synthetic example 0637</div>
+  </div><div class="ps">
+    <div class="ps-id">synthetic-id-676</div>
+    <div class="ps-name">Synthetic example 0677</div>
+    <div class="ps-date">Synthetic example 0678</div>
+  </div><div class="ps">
+    <div class="ps-id">synthetic-id-738</div>
+    <div class="ps-name">Synthetic example 0739</div>
+    <div class="ps-date">Synthetic example 0740</div>
+  </div><div class="ps">
+    <div class="ps-id">synthetic-id-785</div>
+    <div class="ps-name">Synthetic example 0786</div>
+    <div class="ps-date">Synthetic example 0787</div>
+  </div></div>
+
+  <h3 class="h3">Synthetic field_0079（Synthetic field_0403）</h3>
+  <div class="funnel"><div class="fn">
+    <div class="fn-k">Synthetic example 0212</div>
+    <div class="fn-m">Synthetic example 0213</div>
+    <div class="fn-t">Synthetic example 0214</div>
+    <div class="fn-n">Synthetic example 0215</div>
+  </div><div class="fn">
+    <div class="fn-k">Synthetic example 0216</div>
+    <div class="fn-m">Synthetic example 0217</div>
+    <div class="fn-t">Synthetic example 0218</div>
+    <div class="fn-n">Synthetic example 0219</div>
+  </div><div class="fn">
+    <div class="fn-k">Synthetic example 0220</div>
+    <div class="fn-m">Synthetic example 0221</div>
+    <div class="fn-t">Synthetic example 0222</div>
+    <div class="fn-n">Synthetic example 0223</div>
+  </div><div class="fn">
+    <div class="fn-k">Synthetic example 0224</div>
+    <div class="fn-m">Synthetic example 0225</div>
+    <div class="fn-t">Synthetic example 0226</div>
+    <div class="fn-n">Synthetic example 0227</div>
+  </div><div class="fn">
+    <div class="fn-k">Synthetic example 0228</div>
+    <div class="fn-m">Synthetic example 0229</div>
+    <div class="fn-t">Synthetic example 0230</div>
+    <div class="fn-n">Synthetic example 0231</div>
+  </div><div class="fn">
+    <div class="fn-k">Synthetic example 0232</div>
+    <div class="fn-m">Synthetic example 0233</div>
+    <div class="fn-t">Synthetic example 0234</div>
+    <div class="fn-n">Synthetic example 0235</div>
+  </div></div>
+
+  <h3 class="h3">Synthetic field_0083</h3>
+  <div class="three">
+    <div class="th"><div class="th-t">① Synthetic field_0084</div><p>Synthetic field_0085，Synthetic field_0086<b>「Synthetic field_0087」</b>。Synthetic field_0088 EXAMPLE Synthetic field_0089「Synthetic field_0090、Synthetic field_0091」Synthetic field_0092，Synthetic field_0093。</p></div>
+    <div class="th"><div class="th-t">② Synthetic field_0094</div><p><b>Synthetic field_0095、Synthetic field_0404</b>Synthetic field_0405，Synthetic field_0097。Synthetic field_0098，Synthetic field_0099。</p></div>
+    <div class="th"><div class="th-t">③ Synthetic field_0056</div><p>Synthetic field_0100，Synthetic field_0406<b>Synthetic field_0407</b>。Synthetic field_0102，Synthetic field_0103。EXAMPLE Synthetic field_0023 EXAMPLE Synthetic field_0104、Synthetic field_0105，Synthetic field_0106。</p></div>
+  </div>
+</section>
+    
+<section id="review" class="sec"><div class="sec-head"><span class="sec-num">01</span><div><h2>Synthetic field_0108：Synthetic field_0109</h2><p class="sec-sub">Synthetic field_0110、Synthetic field_0111、Synthetic field_0112、Synthetic field_0113，Synthetic field_0114</p></div></div>
+
+<div class="card "><div class="verdict">
+  <div class="vd-score">Synthetic example 0001</div>
+  <ul class="vd-list"><li>Synthetic example 0002</li><li>Synthetic example 0003</li><li>Synthetic example 0004</li><li>Synthetic example 0005</li><li>Synthetic example 0006</li></ul>
+</div></div>
+
+<h3 class="h3">Synthetic field_0048、Synthetic field_0116（Synthetic field_0117）：EXAMPLE Synthetic field_0118</h3>
+<p class="lead">Synthetic field_0119，Synthetic field_0120、Synthetic field_0121、Synthetic field_0122、Synthetic field_0123——Synthetic field_0124？</p>
+<table class="tb tb-risk"><thead><tr><th>Synthetic field_0125</th><th>Synthetic field_0126</th><th>Synthetic field_0127</th><th>Synthetic field_0128</th></tr></thead><tbody><tr><td><span class="lvl lvl-m">Synthetic example 0009</span></td><td><b>Synthetic example 0007 Synthetic example 0008</b></td><td>Synthetic example 0010</td><td>Synthetic example 0011</td></tr><tr><td><span class="lvl lvl-m">Synthetic example 0014</span></td><td><b>Synthetic example 0012 Synthetic example 0013</b></td><td>Synthetic example 0015</td><td>Synthetic example 0016</td></tr><tr><td><span class="lvl lvl-m">Synthetic example 0019</span></td><td><b>Synthetic example 0017 Synthetic example 0018</b></td><td>Synthetic example 0020</td><td>Synthetic example 0021</td></tr><tr><td><span class="lvl lvl-m">Synthetic example 0024</span></td><td><b>Synthetic example 0022 Synthetic example 0023</b></td><td>Synthetic example 0025</td><td>Synthetic example 0026</td></tr><tr><td><span class="lvl lvl-m">Synthetic example 0029</span></td><td><b>Synthetic example 0027 Synthetic example 0028</b></td><td>Synthetic example 0030</td><td>Synthetic example 0031</td></tr><tr><td><span class="lvl lvl-m">Synthetic example 0034</span></td><td><b>Synthetic example 0032 Synthetic example 0033</b></td><td>Synthetic example 0035</td><td>Synthetic example 0036</td></tr><tr><td><span class="lvl lvl-m">Synthetic example 0039</span></td><td><b>Synthetic example 0037 Synthetic example 0038</b></td><td>Synthetic example 0040</td><td>Synthetic example 0041</td></tr><tr><td><span class="lvl lvl-m">Synthetic example 0044</span></td><td><b>Synthetic example 0042 Synthetic example 0043</b></td><td>Synthetic example 0045</td><td>Synthetic example 0046</td></tr><tr><td><span class="lvl lvl-m">Synthetic example 0049</span></td><td><b>Synthetic example 0047 Synthetic example 0048</b></td><td>Synthetic example 0050</td><td>Synthetic example 0051</td></tr><tr><td><span class="lvl lvl-m">Synthetic example 0054</span></td><td><b>Synthetic example 0052 Synthetic example 0053</b></td><td>Synthetic example 0055</td><td>Synthetic example 0056</td></tr><tr><td><span class="lvl lvl-m">Synthetic example 0059</span></td><td><b>Synthetic example 0057 Synthetic example 0058</b></td><td>Synthetic example 0060</td><td>Synthetic example 0061</td></tr><tr><td><span class="lvl lvl-m">Synthetic example 0064</span></td><td><b>Synthetic example 0062 Synthetic example 0063</b></td><td>Synthetic example 0065</td><td>Synthetic example 0066</td></tr></tbody></table>
+
+<h3 class="h3">Synthetic field_0107、Synthetic field_0111：Synthetic field_0129</h3>
+<div class="card "><div class="axiom"><b>Synthetic field_0130：</b>Synthetic example 0067</div>
+<table class="tb "><thead><tr><th>Synthetic field_0131</th><th>Synthetic field_0132</th></tr></thead><tbody><tr><td><b>Synthetic example 0068</b></td><td>Synthetic example 0069</td></tr><tr><td><b>Synthetic example 0070</b></td><td>Synthetic example 0071</td></tr><tr><td><b>Synthetic example 0072</b></td><td>Synthetic example 0073</td></tr><tr><td><b>Synthetic example 0074</b></td><td>Synthetic example 0075</td></tr><tr><td><b>Synthetic example 0076</b></td><td>Synthetic example 0077</td></tr><tr><td><b>Synthetic example 0078</b></td><td>Synthetic example 0079</td></tr></tbody></table></div>
+
+<h3 class="h3">Synthetic field_0147、Synthetic field_0112：Synthetic field_0133，Synthetic field_0134</h3>
+<div class="sq">
+<div class="sq-item">
+    <div class="sq-q">Synthetic example 0080</div>
+    <div class="sq-a">Synthetic example 0081</div>
+  </div><div class="sq-item">
+    <div class="sq-q">Synthetic example 0082</div>
+    <div class="sq-a">Synthetic example 0083</div>
+  </div><div class="sq-item">
+    <div class="sq-q">Synthetic example 0084</div>
+    <div class="sq-a">Synthetic example 0085</div>
+  </div><div class="sq-item">
+    <div class="sq-q">Synthetic example 0086</div>
+    <div class="sq-a">Synthetic example 0087</div>
+  </div><div class="sq-item">
+    <div class="sq-q">Synthetic example 0088</div>
+    <div class="sq-a">Synthetic example 0089</div>
+  </div><div class="sq-item">
+    <div class="sq-q">Synthetic example 0090</div>
+    <div class="sq-a">Synthetic example 0091</div>
+  </div><div class="sq-item">
+    <div class="sq-q">Synthetic example 0092</div>
+    <div class="sq-a">Synthetic example 0093</div>
+  </div><div class="sq-item">
+    <div class="sq-q">Synthetic example 0094</div>
+    <div class="sq-a">Synthetic example 0095</div>
+  </div>
+</div>
+
+<h3 class="h3">Synthetic field_0161、Synthetic field_0135：Synthetic field_0136，Synthetic field_0137</h3>
+<p class="lead">EXAMPLE Synthetic field_0138、EXAMPLE Synthetic field_0139，Synthetic field_0140。Synthetic field_0410，Synthetic field_0411。</p>
+<div class="occam">
+  <div class="oc-col oc-cut">
+    <div class="oc-h">✂ Synthetic field_0142 / Synthetic field_0143</div>
+    <div class="oc-item"><div class="oc-t">Synthetic example 0097</div><div class="oc-w">Synthetic example 0098</div><div class="oc-i"><b>→</b> Synthetic example 0099</div></div><div class="oc-item"><div class="oc-t">Synthetic example 0100</div><div class="oc-w">Synthetic example 0101</div><div class="oc-i"><b>→</b> Synthetic example 0102</div></div><div class="oc-item"><div class="oc-t">Synthetic example 0103</div><div class="oc-w">Synthetic example 0104</div><div class="oc-i"><b>→</b> Synthetic example 0105</div></div><div class="oc-item"><div class="oc-t">Synthetic example 0106</div><div class="oc-w">Synthetic example 0107</div><div class="oc-i"><b>→</b> Synthetic example 0108</div></div><div class="oc-item"><div class="oc-t">Synthetic example 0109</div><div class="oc-w">Synthetic example 0110</div><div class="oc-i"><b>→</b> Synthetic example 0111</div></div><div class="oc-item"><div class="oc-t">Synthetic example 0112</div><div class="oc-w">Synthetic example 0113</div><div class="oc-i"><b>→</b> Synthetic example 0114</div></div>
+  </div>
+  <div class="oc-col oc-keep">
+    <div class="oc-h">🛡 Synthetic field_0412</div>
+    <div class="oc-item"><div class="oc-t">Synthetic example 0115</div><div class="oc-w">Synthetic example 0116</div></div><div class="oc-item"><div class="oc-t">Synthetic example 0117</div><div class="oc-w">Synthetic example 0118</div></div><div class="oc-item"><div class="oc-t">Synthetic example 0119</div><div class="oc-w">Synthetic example 0120</div></div><div class="oc-item"><div class="oc-t">Synthetic example 0121</div><div class="oc-w">Synthetic example 0122</div></div>
+  </div>
+</div></section>
+    
+<section id="added" class="sec"><div class="sec-head"><span class="sec-num">02</span><div><h2>Synthetic field_0413</h2><p class="sec-sub">Synthetic field_0414（★）、Synthetic field_0415（◆），Synthetic field_0416，Synthetic field_0417</p></div></div>
+
+<div class="note">
+  <b>Synthetic field_0418：</b>Synthetic field_0419（Synthetic field_0150、Synthetic field_0151、Synthetic field_0152、Synthetic field_0153），Synthetic field_0154；Synthetic field_0420。Synthetic field_0421 <span class="tag-star">★Synthetic field_0156</span> Synthetic field_0422（Synthetic field_0158），<span class="tag-add">◆Synthetic field_0159</span> Synthetic field_0423。
+</div>
+
+<div class="add-grid">
+<div class="add-card">
+    <div class="add-h">Synthetic example 0123</div>
+    <ul><li>Synthetic example 0124</li><li>Synthetic example 0125</li><li>Synthetic example 0126</li></ul>
+  </div><div class="add-card">
+    <div class="add-h">Synthetic example 0127</div>
+    <ul><li>Synthetic example 0128</li><li>Synthetic example 0129</li></ul>
+  </div><div class="add-card">
+    <div class="add-h">Synthetic example 0130</div>
+    <ul><li>Synthetic example 0131</li><li>Synthetic example 0132</li><li>Synthetic example 0133</li><li>Synthetic example 0134</li></ul>
+  </div><div class="add-card">
+    <div class="add-h">Synthetic example 0135</div>
+    <ul><li>Synthetic example 0136</li><li>Synthetic example 0137</li></ul>
+  </div><div class="add-card">
+    <div class="add-h">Synthetic example 0138</div>
+    <ul><li>Synthetic example 0139</li><li>Synthetic example 0140</li><li>Synthetic example 0141</li></ul>
+  </div><div class="add-card">
+    <div class="add-h">Synthetic example 0142</div>
+    <ul><li>Synthetic example 0143</li><li>Synthetic example 0144</li><li>Synthetic example 0145</li></ul>
+  </div><div class="add-card">
+    <div class="add-h">Synthetic example 0146</div>
+    <ul><li>Synthetic example 0147</li><li>Synthetic example 0148</li><li>Synthetic example 0149</li></ul>
+  </div><div class="add-card">
+    <div class="add-h">Synthetic example 0150</div>
+    <ul><li>Synthetic example 0151</li><li>Synthetic example 0152</li><li>Synthetic example 0153</li></ul>
+  </div>
+</div></section>
+    
+<section id="bg" class="sec"><div class="sec-head"><span class="sec-num">03</span><div><h2>Synthetic field_0162</h2><p class="sec-sub">Synthetic field_0424、Synthetic field_0425、Synthetic field_0426、Synthetic field_0427</p></div></div>
+
+<div class="ident">Synthetic example 0154</div>
+
+<h3 class="h3">Synthetic field_0048、Synthetic field_0163（Synthetic field_0164）</h3>
+<ul class="bullets"><li>Synthetic example 0155</li><li>Synthetic example 0156</li><li>Synthetic example 0157</li><li>Synthetic example 0158</li><li>Synthetic example 0159</li></ul>
+
+<h3 class="h3">Synthetic field_0107、Synthetic field_0165</h3>
+<div class="biz">
+<div class="biz-card">
+    <div class="biz-tag">Synthetic example 0161</div>
+    <div class="biz-name">Synthetic example 0160</div>
+    <div class="biz-desc">Synthetic example 0162</div>
+    <div class="biz-facts"><b>Synthetic field_0167：</b>Synthetic example 0163</div>
+  </div><div class="biz-card">
+    <div class="biz-tag">Synthetic example 0165</div>
+    <div class="biz-name">Synthetic example 0164</div>
+    <div class="biz-desc">Synthetic example 0166</div>
+    <div class="biz-facts"><b>Synthetic field_0167：</b>Synthetic example 0167</div>
+  </div><div class="biz-card">
+    <div class="biz-tag">Synthetic example 0169</div>
+    <div class="biz-name">Synthetic example 0168</div>
+    <div class="biz-desc">Synthetic example 0170</div>
+    <div class="biz-facts"><b>Synthetic field_0167：</b>Synthetic example 0171</div>
+  </div><div class="biz-card">
+    <div class="biz-tag">Synthetic example 0173</div>
+    <div class="biz-name">Synthetic example 0172</div>
+    <div class="biz-desc">Synthetic example 0174</div>
+    <div class="biz-facts"><b>Synthetic field_0167：</b>Synthetic example 0175</div>
+  </div>
+</div>
+
+<h3 class="h3">Synthetic field_0147、SWOT</h3>
+<table class="tb tb-swot"><thead><tr><th>Synthetic example 0189</th><th>Synthetic example 0194</th><th>Synthetic example 0199</th><th>Synthetic example 0205</th></tr></thead><tbody><tr><td><ul class="mini"><li>Synthetic example 0190</li><li>Synthetic example 0191</li><li>Synthetic example 0192</li><li>Synthetic example 0193</li></ul></td><td><ul class="mini"><li>Synthetic example 0195</li><li>Synthetic example 0196</li><li>Synthetic example 0197</li><li>Synthetic example 0198</li></ul></td><td><ul class="mini"><li>Synthetic example 0200</li><li>Synthetic example 0201</li><li>Synthetic example 0202</li><li>Synthetic example 0203</li><li>Synthetic example 0204</li></ul></td><td><ul class="mini"><li>Synthetic example 0206</li><li>Synthetic example 0207</li><li>Synthetic example 0208</li><li>Synthetic example 0209</li><li>Synthetic example 0210</li></ul></td></tr></tbody></table>
+
+<h3 class="h3">Synthetic field_0161、Synthetic field_0169：Synthetic field_0428</h3>
+<p class="lead">Synthetic example 0176</p>
+<table class="tb "><thead><tr><th>Synthetic field_0170</th><th>Synthetic field_0171</th><th>Synthetic field_0172</th></tr></thead><tbody><tr><td><b>Synthetic example 0177</b></td><td>Synthetic example 0178</td><td>Synthetic example 0179</td></tr><tr><td><b>Synthetic example 0180</b></td><td>Synthetic example 0181</td><td>Synthetic example 0182</td></tr><tr><td><b>Synthetic example 0183</b></td><td>Synthetic example 0184</td><td>Synthetic example 0185</td></tr><tr><td><b>Synthetic example 0186</b></td><td>Synthetic example 0187</td><td>Synthetic example 0188</td></tr></tbody></table></section>
+    
+<section id="obj" class="sec"><div class="sec-head"><span class="sec-num">04</span><div><h2>Synthetic field_0174</h2><p class="sec-sub">Synthetic field_0429「Synthetic field_0430」Synthetic field_0431，Synthetic field_0432、Synthetic field_0433</p></div></div>
+
+<div class="north"><b>Synthetic field_0175：</b>Synthetic example 0211</div>
+
+<h3 class="h3">Synthetic field_0048、Synthetic field_0176（Synthetic field_0080）</h3>
+<table class="tb "><thead><tr><th>Synthetic field_0081</th><th>Synthetic field_0082</th><th>Synthetic field_0058</th><th>Synthetic field_0059</th></tr></thead><tbody><tr><td><b>Synthetic example 0212</b></td><td>Synthetic example 0213</td><td><span class="hl">Synthetic example 0214</span></td><td>Synthetic example 0215</td></tr><tr><td><b>Synthetic example 0216</b></td><td>Synthetic example 0217</td><td><span class="hl">Synthetic example 0218</span></td><td>Synthetic example 0219</td></tr><tr><td><b>Synthetic example 0220</b></td><td>Synthetic example 0221</td><td><span class="hl">Synthetic example 0222</span></td><td>Synthetic example 0223</td></tr><tr><td><b>Synthetic example 0224</b></td><td>Synthetic example 0225</td><td><span class="hl">Synthetic example 0226</span></td><td>Synthetic example 0227</td></tr><tr><td><b>Synthetic example 0228</b></td><td>Synthetic example 0229</td><td><span class="hl">Synthetic example 0230</span></td><td>Synthetic example 0231</td></tr><tr><td><b>Synthetic example 0232</b></td><td>Synthetic example 0233</td><td><span class="hl">Synthetic example 0234</span></td><td>Synthetic example 0235</td></tr></tbody></table>
+
+<h3 class="h3">Synthetic field_0107、Synthetic field_0177 KPI Synthetic field_0178</h3>
+<table class="tb "><thead><tr><th>Synthetic field_0179</th><th>KPI</th><th>Synthetic field_0180</th></tr></thead><tbody><tr><td><b>Synthetic example 0236</b></td><td>Synthetic example 0237</td><td>Synthetic example 0238</td></tr><tr><td><b>Synthetic example 0239</b></td><td>Synthetic example 0240</td><td>Synthetic example 0241</td></tr><tr><td><b>Synthetic example 0242</b></td><td>Synthetic example 0243</td><td>Synthetic example 0244</td></tr><tr><td><b>Synthetic example 0245</b></td><td>Synthetic example 0246</td><td>Synthetic example 0247</td></tr><tr><td><b>Synthetic example 0248</b></td><td>Synthetic example 0249</td><td>Synthetic example 0250</td></tr><tr><td><b>Synthetic example 0251</b></td><td>Synthetic example 0252</td><td>Synthetic example 0253</td></tr><tr><td><b>Synthetic example 0254</b></td><td>Synthetic example 0255</td><td>Synthetic example 0256</td></tr></tbody></table></section>
+    
+<section id="persona" class="sec"><div class="sec-head"><span class="sec-num">05</span><div><h2>Synthetic field_0182</h2><p class="sec-sub">Synthetic field_0434，Synthetic field_0435；Synthetic field_0436，Synthetic field_0437</p></div></div>
+
+<div class="note"><b>Synthetic field_0183：</b>Synthetic field_0438「Synthetic field_0185 / Synthetic field_0186 / Synthetic field_0187」Synthetic field_0188、Synthetic field_0189，Synthetic field_0439。Synthetic field_0191：Synthetic field_0192 EXAMPLE Synthetic field_0440<b>Synthetic field_0441、Synthetic field_0194、Synthetic field_0442</b>Synthetic field_0443，Synthetic field_0196「Synthetic field_0197」Synthetic field_0198「Synthetic field_0199」——Synthetic field_0200，Synthetic field_0201。</div>
+
+<h3 class="h3">Synthetic field_0048、Synthetic field_0202 EXAMPLE Synthetic field_0203</h3>
+<table class="tb "><thead><tr><th>Synthetic field_0075</th><th>Synthetic field_0204</th><th>Synthetic field_0205</th></tr></thead><tbody><tr><td><b>Synthetic example 0287</b></td><td>Synthetic example 0288</td><td>Synthetic example 0289</td></tr><tr><td><b>Synthetic example 0290</b></td><td>Synthetic example 0291</td><td>Synthetic example 0292</td></tr><tr><td><b>Synthetic example 0293</b></td><td>Synthetic example 0294</td><td>Synthetic example 0295</td></tr></tbody></table>
+
+<h3 class="h3">Synthetic field_0107、Synthetic field_0206</h3>
+<div class="per-grid">
+<div class="per">
+    <div class="per-h"><span class="per-n">Synthetic example 0257</span><span class="per-r">Synthetic field_0207 Synthetic example 0258</span></div>
+    <div class="per-tr"><b>Synthetic field_0208：</b>Synthetic example 0259</div>
+    <div class="per-st"><b>Synthetic field_0209：</b>Synthetic example 0260</div>
+    <div class="per-sc"><b>Synthetic field_0210：</b>Synthetic example 0261</div>
+  </div><div class="per">
+    <div class="per-h"><span class="per-n">Synthetic example 0262</span><span class="per-r">Synthetic field_0207 Synthetic example 0263</span></div>
+    <div class="per-tr"><b>Synthetic field_0208：</b>Synthetic example 0264</div>
+    <div class="per-st"><b>Synthetic field_0209：</b>Synthetic example 0265</div>
+    <div class="per-sc"><b>Synthetic field_0210：</b>Synthetic example 0266</div>
+  </div><div class="per">
+    <div class="per-h"><span class="per-n">Synthetic example 0267</span><span class="per-r">Synthetic field_0207 Synthetic example 0268</span></div>
+    <div class="per-tr"><b>Synthetic field_0208：</b>Synthetic example 0269</div>
+    <div class="per-st"><b>Synthetic field_0209：</b>Synthetic example 0270</div>
+    <div class="per-sc"><b>Synthetic field_0210：</b>Synthetic example 0271</div>
+  </div><div class="per">
+    <div class="per-h"><span class="per-n">Synthetic example 0272</span><span class="per-r">Synthetic field_0207 Synthetic example 0273</span></div>
+    <div class="per-tr"><b>Synthetic field_0208：</b>Synthetic example 0274</div>
+    <div class="per-st"><b>Synthetic field_0209：</b>Synthetic example 0275</div>
+    <div class="per-sc"><b>Synthetic field_0210：</b>Synthetic example 0276</div>
+  </div><div class="per">
+    <div class="per-h"><span class="per-n">Synthetic example 0277</span><span class="per-r">Synthetic field_0207 Synthetic example 0278</span></div>
+    <div class="per-tr"><b>Synthetic field_0208：</b>Synthetic example 0279</div>
+    <div class="per-st"><b>Synthetic field_0209：</b>Synthetic example 0280</div>
+    <div class="per-sc"><b>Synthetic field_0210：</b>Synthetic example 0281</div>
+  </div><div class="per">
+    <div class="per-h"><span class="per-n">Synthetic example 0282</span><span class="per-r">Synthetic field_0207 Synthetic example 0283</span></div>
+    <div class="per-tr"><b>Synthetic field_0208：</b>Synthetic example 0284</div>
+    <div class="per-st"><b>Synthetic field_0209：</b>Synthetic example 0285</div>
+    <div class="per-sc"><b>Synthetic field_0210：</b>Synthetic example 0286</div>
+  </div>
+</div></section>
+    
+<section id="msg" class="sec"><div class="sec-head"><span class="sec-num">06</span><div><h2>Synthetic field_0212</h2><p class="sec-sub">Synthetic field_0444、Synthetic field_0445、Synthetic field_0446</p></div></div>
+
+<h3 class="h3">Synthetic field_0048、Synthetic field_0213</h3>
+<div class="core-msg">Synthetic example 0296</div>
+
+<h3 class="h3">Synthetic field_0107、Synthetic field_0214（Synthetic field_0215）</h3>
+<table class="tb "><thead><tr><th>Synthetic field_0081</th><th>Synthetic field_0216</th><th>Synthetic field_0217</th></tr></thead><tbody><tr><td><b>Synthetic example 0297</b></td><td>Synthetic example 0298</td><td>Synthetic example 0299</td></tr><tr><td><b>Synthetic example 0300</b></td><td>Synthetic example 0301</td><td>Synthetic example 0302</td></tr><tr><td><b>Synthetic example 0303</b></td><td>Synthetic example 0304</td><td>Synthetic example 0305</td></tr></tbody></table>
+
+<h3 class="h3">Synthetic field_0147、Synthetic field_0218</h3>
+<div class="sl-main"><div class="sl-item">Synthetic example 0306</div><div class="sl-item">Synthetic example 0307</div><div class="sl-item">Synthetic example 0308</div></div>
+<table class="tb "><thead><tr><th>Synthetic field_0221</th><th>Synthetic field_0447</th></tr></thead><tbody><tr><td><b>Synthetic example 0309</b></td><td>· Synthetic example 0310<br>· Synthetic example 0311<br>· Synthetic example 0312</td></tr><tr><td><b>Synthetic example 0313</b></td><td>· Synthetic example 0314<br>· Synthetic example 0315<br>· Synthetic example 0316</td></tr><tr><td><b>Synthetic example 0317</b></td><td>· Synthetic example 0318<br>· Synthetic example 0319<br>· Synthetic example 0320</td></tr><tr><td><b>Synthetic example 0321</b></td><td>· Synthetic example 0322<br>· Synthetic example 0323<br>· Synthetic example 0324</td></tr></tbody></table>
+<h4 class="h4">Synthetic field_0223</h4>
+<table class="tb "><thead><tr><th>Synthetic field_0224</th><th>Synthetic field_0225</th></tr></thead><tbody><tr><td><b>Synthetic example 0325</b></td><td>Synthetic example 0326</td></tr><tr><td><b>Synthetic example 0327</b></td><td>Synthetic example 0328</td></tr><tr><td><b>Synthetic example 0329</b></td><td>Synthetic example 0330</td></tr><tr><td><b>Synthetic example 0331</b></td><td>Synthetic example 0332</td></tr></tbody></table>
+
+<h3 class="h3">Synthetic field_0161、FAQ Synthetic field_0226（Synthetic field_0227）</h3>
+<div class="faq">
+<details><summary>Synthetic example 0333</summary><div class="faq-a">Synthetic example 0334</div></details><details><summary>Synthetic example 0335</summary><div class="faq-a">Synthetic example 0336</div></details><details><summary>Synthetic example 0337</summary><div class="faq-a">Synthetic example 0338</div></details><details><summary>Synthetic example 0339</summary><div class="faq-a">Synthetic example 0340</div></details><details><summary>Synthetic example 0341</summary><div class="faq-a">Synthetic example 0342</div></details><details><summary>Synthetic example 0343</summary><div class="faq-a">Synthetic example 0344</div></details><details><summary>Synthetic example 0345</summary><div class="faq-a">Synthetic example 0346</div></details><details><summary>Synthetic example 0347</summary><div class="faq-a">Synthetic example 0348</div></details>
+</div>
+
+<h3 class="h3">Synthetic field_0173、Synthetic field_0230：Synthetic field_0088「Synthetic field_0231」Synthetic field_0232「Synthetic field_0233」</h3>
+<div class="card "><div class="prin"><b>Synthetic field_0234：</b>Synthetic example 0349</div>
+<table class="tb "><thead><tr><th>Synthetic field_0235</th><th>Synthetic field_0236</th></tr></thead><tbody><tr><td><b>Synthetic example 0350</b></td><td>Synthetic example 0351</td></tr><tr><td><b>Synthetic example 0352</b></td><td>Synthetic example 0353</td></tr><tr><td><b>Synthetic example 0354</b></td><td>Synthetic example 0355</td></tr><tr><td><b>Synthetic example 0356</b></td><td>Synthetic example 0357</td></tr><tr><td><b>Synthetic example 0358</b></td><td>Synthetic example 0359</td></tr><tr><td><b>Synthetic example 0360</b></td><td>Synthetic example 0361</td></tr></tbody></table></div></section>
+    
+<section id="org" class="sec"><div class="sec-head"><span class="sec-num">07</span><div><h2>Synthetic field_0238</h2><p class="sec-sub">EXAMPLE Synthetic field_0448 + Synthetic field_0449 EXAMPLE Synthetic field_0450，Synthetic field_0451</p></div></div>
+
+<p class="lead">Synthetic example 0362</p>
+
+<h3 class="h3">Synthetic field_0048、Synthetic field_0239 KPI</h3>
+<table class="tb "><thead><tr><th>Synthetic field_0240</th><th>Synthetic field_0241</th><th>Synthetic field_0242</th><th>Synthetic field_0243 KPI</th></tr></thead><tbody><tr><td><b>Synthetic example 0363</b></td><td>Synthetic example 0364</td><td>Synthetic example 0365</td><td>Synthetic example 0366</td></tr><tr><td><b>Synthetic example 0367</b></td><td>Synthetic example 0368</td><td>Synthetic example 0369</td><td>Synthetic example 0370</td></tr><tr><td><b>Synthetic example 0371</b></td><td>Synthetic example 0372</td><td>Synthetic example 0373</td><td>Synthetic example 0374</td></tr><tr><td><b>Synthetic example 0375</b></td><td>Synthetic example 0376</td><td>Synthetic example 0377</td><td>Synthetic example 0378</td></tr><tr><td><b>Synthetic example 0379</b></td><td>Synthetic example 0380</td><td>Synthetic example 0381</td><td>Synthetic example 0382</td></tr><tr><td><b>Synthetic example 0383</b></td><td>Synthetic example 0384</td><td>Synthetic example 0385</td><td>Synthetic example 0386</td></tr><tr><td><b>Synthetic example 0387</b></td><td>Synthetic example 0388</td><td>Synthetic example 0389</td><td>Synthetic example 0390</td></tr><tr><td><b>Synthetic example 0391</b></td><td>Synthetic example 0392</td><td>Synthetic example 0393</td><td>Synthetic example 0394</td></tr></tbody></table>
+
+<h3 class="h3">Synthetic field_0107、RACI Synthetic field_0244（A=Synthetic field_0245，R=Synthetic field_0246，C=Synthetic field_0247，I=Synthetic field_0248）</h3>
+<table class="tb "><thead><tr><th>Synthetic field_0249</th><th>A Synthetic field_0180</th><th>R Synthetic field_0246</th><th>C Synthetic field_0250</th><th>I Synthetic field_0251</th></tr></thead><tbody><tr><td><b>Synthetic example 0395</b></td><td>Synthetic example 0396</td><td>Synthetic example 0397</td><td>Synthetic example 0398</td><td>Synthetic example 0399</td></tr><tr><td><b>Synthetic example 0400</b></td><td>Synthetic example 0401</td><td>Synthetic example 0402</td><td>Synthetic example 0403</td><td>Synthetic example 0404</td></tr><tr><td><b>Synthetic example 0405</b></td><td>Synthetic example 0406</td><td>Synthetic example 0407</td><td>Synthetic example 0408</td><td>Synthetic example 0409</td></tr><tr><td><b>Synthetic example 0410</b></td><td>Synthetic example 0411</td><td>Synthetic example 0412</td><td>Synthetic example 0413</td><td>Synthetic example 0414</td></tr><tr><td><b>Synthetic example 0415</b></td><td>Synthetic example 0416</td><td>Synthetic example 0417</td><td>Synthetic example 0418</td><td>Synthetic example 0419</td></tr><tr><td><b>Synthetic example 0420</b></td><td>Synthetic example 0421</td><td>Synthetic example 0422</td><td>Synthetic example 0423</td><td>Synthetic example 0424</td></tr><tr><td><b>Synthetic example 0425</b></td><td>Synthetic example 0426</td><td>Synthetic example 0427</td><td>Synthetic example 0428</td><td>Synthetic example 0429</td></tr><tr><td><b>Synthetic example 0430</b></td><td>Synthetic example 0431</td><td>Synthetic example 0432</td><td>Synthetic example 0433</td><td>Synthetic example 0434</td></tr><tr><td><b>Synthetic example 0435</b></td><td>Synthetic example 0436</td><td>Synthetic example 0437</td><td>Synthetic example 0438</td><td>Synthetic example 0439</td></tr><tr><td><b>Synthetic example 0440</b></td><td>Synthetic example 0441</td><td>Synthetic example 0442</td><td>Synthetic example 0443</td><td>Synthetic example 0444</td></tr><tr><td><b>Synthetic example 0445</b></td><td>Synthetic example 0446</td><td>Synthetic example 0447</td><td>Synthetic example 0448</td><td>Synthetic example 0449</td></tr></tbody></table>
+
+<h3 class="h3">Synthetic field_0147、Synthetic field_0252</h3>
+<div class="rit">
+<div class="rit-item"><div class="rit-t">Synthetic example 0450</div><div class="rit-d">Synthetic example 0451</div></div><div class="rit-item"><div class="rit-t">Synthetic example 0452</div><div class="rit-d">Synthetic example 0453</div></div><div class="rit-item"><div class="rit-t">Synthetic example 0454</div><div class="rit-d">Synthetic example 0455</div></div><div class="rit-item"><div class="rit-t">Synthetic example 0456</div><div class="rit-d">Synthetic example 0457</div></div>
+</div></section>
+    <section id="phase" class="sec"><div class="sec-head"><span class="sec-num">08</span><div><h2>Synthetic field_0007</h2><p class="sec-sub">Synthetic field_0254：Synthetic field_0255 / Synthetic field_0256 / Synthetic field_0257 / Synthetic field_0258 / Synthetic field_0210 / Synthetic field_0259 / Synthetic field_0260——Synthetic field_0261</p></div></div><div class="phase" id="phase-synthetic-id-458">
+  <div class="ph-head">
+    <div class="ph-id">synthetic-id-458</div>
+    <div class="ph-title">
+      <div class="ph-name">Synthetic example 0459 <span class="ph-tag">Synthetic example 0461</span></div>
+      <div class="ph-date">Synthetic example 0460</div>
+    </div>
+  </div>
+  <div class="ph-body">
+    <div class="ph-goal"><b>Synthetic field_0262：</b>Synthetic example 0462</div>
+    <div class="ph-kpi"><b>Synthetic field_0259 KPI：</b><ul><li>Synthetic example 0463</li><li>Synthetic example 0464</li><li>Synthetic example 0465</li><li>Synthetic example 0466</li><li>Synthetic example 0467</li></ul></div>
+
+    <div class="ph-grid">
+      <div class="ph-box">
+        <div class="ph-box-h">Synthetic field_0263</div>
+        <ul class="ph-act"><li><span class="tag tag-star">Synthetic example 0469</span>Synthetic example 0468</li><li><span class="tag tag-star">Synthetic example 0471</span>Synthetic example 0470</li><li><span class="tag tag-star">Synthetic example 0473</span>Synthetic example 0472</li><li><span class="tag tag-star">Synthetic example 0475</span>Synthetic example 0474</li><li><span class="tag tag-star">Synthetic example 0477</span>Synthetic example 0476</li><li><span class="tag tag-star">Synthetic example 0479</span>Synthetic example 0478</li><li><span class="tag tag-star">Synthetic example 0481</span>Synthetic example 0480</li><li><span class="tag tag-star">Synthetic example 0483</span>Synthetic example 0482</li><li><span class="tag tag-star">Synthetic example 0485</span>Synthetic example 0484</li><li><span class="tag tag-star">Synthetic example 0487</span>Synthetic example 0486</li></ul>
+      </div>
+      <div class="ph-box">
+        <div class="ph-box-h">Synthetic field_0264</div>
+        <ul class="ph-list"><li>Synthetic example 0488</li><li>Synthetic example 0489</li><li>Synthetic example 0490</li><li>Synthetic example 0491</li><li>Synthetic example 0492</li><li>Synthetic example 0493</li><li>Synthetic example 0494</li><li>Synthetic example 0495</li><li>Synthetic example 0496</li><li>Synthetic example 0497</li></ul>
+        <div class="ph-box-h mt">Synthetic field_0152</div>
+        <div class="ph-own">Synthetic example 0498</div>
+      </div>
+    </div>
+
+    <div class="ph-script"><div class="ph-box-h">Synthetic field_0265</div>Synthetic example 0499</div>
+
+    <div class="ph-grid">
+      <div class="ph-box ok">
+        <div class="ph-box-h">✓ Synthetic field_0266</div>
+        <ul class="ph-list"><li>Synthetic example 0500</li><li>Synthetic example 0501</li><li>Synthetic example 0502</li><li>Synthetic example 0503</li><li>Synthetic example 0504</li><li>Synthetic example 0505</li></ul>
+      </div>
+      <div class="ph-box warn">
+        <div class="ph-box-h">⚠ Synthetic field_0267</div>
+        <ul class="ph-list"><li><b>Synthetic example 0506</b>：Synthetic example 0507</li><li><b>Synthetic example 0508</b>：Synthetic example 0509</li></ul>
+      </div>
+    </div>
+  </div>
+</div><div class="phase" id="phase-synthetic-id-510">
+  <div class="ph-head">
+    <div class="ph-id">synthetic-id-510</div>
+    <div class="ph-title">
+      <div class="ph-name">Synthetic example 0511 <span class="ph-tag">Synthetic example 0513</span></div>
+      <div class="ph-date">Synthetic example 0512</div>
+    </div>
+  </div>
+  <div class="ph-body">
+    <div class="ph-goal"><b>Synthetic field_0262：</b>Synthetic example 0514</div>
+    <div class="ph-kpi"><b>Synthetic field_0259 KPI：</b><ul><li>Synthetic example 0515</li><li>Synthetic example 0516</li><li>Synthetic example 0517</li><li>Synthetic example 0518</li></ul></div>
+
+    <div class="ph-grid">
+      <div class="ph-box">
+        <div class="ph-box-h">Synthetic field_0263</div>
+        <ul class="ph-act"><li><span class="tag tag-star">Synthetic example 0520</span>Synthetic example 0519</li><li><span class="tag tag-star">Synthetic example 0522</span>Synthetic example 0521</li><li><span class="tag tag-star">Synthetic example 0524</span>Synthetic example 0523</li><li><span class="tag tag-star">Synthetic example 0526</span>Synthetic example 0525</li><li><span class="tag tag-star">Synthetic example 0528</span>Synthetic example 0527</li><li><span class="tag tag-star">Synthetic example 0530</span>Synthetic example 0529</li></ul>
+      </div>
+      <div class="ph-box">
+        <div class="ph-box-h">Synthetic field_0264</div>
+        <ul class="ph-list"><li>Synthetic example 0531</li><li>Synthetic example 0532</li><li>Synthetic example 0533</li><li>Synthetic example 0534</li><li>Synthetic example 0535</li><li>Synthetic example 0536</li></ul>
+        <div class="ph-box-h mt">Synthetic field_0152</div>
+        <div class="ph-own">Synthetic example 0537</div>
+      </div>
+    </div>
+
+    <div class="ph-script"><div class="ph-box-h">Synthetic field_0265</div>Synthetic example 0538</div>
+
+    <div class="ph-grid">
+      <div class="ph-box ok">
+        <div class="ph-box-h">✓ Synthetic field_0266</div>
+        <ul class="ph-list"><li>Synthetic example 0539</li><li>Synthetic example 0540</li><li>Synthetic example 0541</li><li>Synthetic example 0542</li><li>Synthetic example 0543</li></ul>
+      </div>
+      <div class="ph-box warn">
+        <div class="ph-box-h">⚠ Synthetic field_0267</div>
+        <ul class="ph-list"><li><b>Synthetic example 0544</b>：Synthetic example 0545</li><li><b>Synthetic example 0546</b>：Synthetic example 0547</li><li><b>Synthetic example 0548</b>：Synthetic example 0549</li></ul>
+      </div>
+    </div>
+  </div>
+</div><div class="phase" id="phase-synthetic-id-550">
+  <div class="ph-head">
+    <div class="ph-id">synthetic-id-550</div>
+    <div class="ph-title">
+      <div class="ph-name">Synthetic example 0551 <span class="ph-tag">Synthetic example 0553</span></div>
+      <div class="ph-date">Synthetic example 0552</div>
+    </div>
+  </div>
+  <div class="ph-body">
+    <div class="ph-goal"><b>Synthetic field_0262：</b>Synthetic example 0554</div>
+    <div class="ph-kpi"><b>Synthetic field_0259 KPI：</b><ul><li>Synthetic example 0555</li><li>Synthetic example 0556</li><li>Synthetic example 0557</li><li>Synthetic example 0558</li></ul></div>
+
+    <div class="ph-grid">
+      <div class="ph-box">
+        <div class="ph-box-h">Synthetic field_0263</div>
+        <ul class="ph-act"><li><span class="tag tag-star">Synthetic example 0560</span>Synthetic example 0559</li><li><span class="tag tag-star">Synthetic example 0562</span>Synthetic example 0561</li><li><span class="tag tag-star">Synthetic example 0564</span>Synthetic example 0563</li><li><span class="tag tag-star">Synthetic example 0566</span>Synthetic example 0565</li><li><span class="tag tag-star">Synthetic example 0568</span>Synthetic example 0567</li><li><span class="tag tag-star">Synthetic example 0570</span>Synthetic example 0569</li></ul>
+      </div>
+      <div class="ph-box">
+        <div class="ph-box-h">Synthetic field_0264</div>
+        <ul class="ph-list"><li>Synthetic example 0571</li><li>Synthetic example 0572</li><li>Synthetic example 0573</li><li>Synthetic example 0574</li><li>Synthetic example 0575</li><li>Synthetic example 0576</li></ul>
+        <div class="ph-box-h mt">Synthetic field_0152</div>
+        <div class="ph-own">Synthetic example 0577</div>
+      </div>
+    </div>
+
+    <div class="ph-script"><div class="ph-box-h">Synthetic field_0265</div>Synthetic example 0578</div>
+
+    <div class="ph-grid">
+      <div class="ph-box ok">
+        <div class="ph-box-h">✓ Synthetic field_0266</div>
+        <ul class="ph-list"><li>Synthetic example 0579</li><li>Synthetic example 0580</li><li>Synthetic example 0581</li><li>Synthetic example 0582</li></ul>
+      </div>
+      <div class="ph-box warn">
+        <div class="ph-box-h">⚠ Synthetic field_0267</div>
+        <ul class="ph-list"><li><b>Synthetic example 0583</b>：Synthetic example 0584</li><li><b>Synthetic example 0585</b>：Synthetic example 0586</li><li><b>Synthetic example 0587</b>：Synthetic example 0588</li><li><b>Synthetic example 0589</b>：Synthetic example 0590</li></ul>
+      </div>
+    </div>
+  </div>
+</div><div class="phase" id="phase-synthetic-id-591">
+  <div class="ph-head">
+    <div class="ph-id">synthetic-id-591</div>
+    <div class="ph-title">
+      <div class="ph-name">Synthetic example 0592 <span class="ph-tag">Synthetic example 0594</span></div>
+      <div class="ph-date">Synthetic example 0593</div>
+    </div>
+  </div>
+  <div class="ph-body">
+    <div class="ph-goal"><b>Synthetic field_0262：</b>Synthetic example 0595</div>
+    <div class="ph-kpi"><b>Synthetic field_0259 KPI：</b><ul><li>Synthetic example 0596</li><li>Synthetic example 0597</li><li>Synthetic example 0598</li><li>Synthetic example 0599</li><li>Synthetic example 0600</li></ul></div>
+
+    <div class="ph-grid">
+      <div class="ph-box">
+        <div class="ph-box-h">Synthetic field_0263</div>
+        <ul class="ph-act"><li><span class="tag tag-star">Synthetic example 0602</span>Synthetic example 0601</li><li><span class="tag tag-star">Synthetic example 0604</span>Synthetic example 0603</li><li><span class="tag tag-star">Synthetic example 0606</span>Synthetic example 0605</li><li><span class="tag tag-star">Synthetic example 0608</span>Synthetic example 0607</li><li><span class="tag tag-star">Synthetic example 0610</span>Synthetic example 0609</li><li><span class="tag tag-star">Synthetic example 0612</span>Synthetic example 0611</li><li><span class="tag tag-star">Synthetic example 0614</span>Synthetic example 0613</li></ul>
+      </div>
+      <div class="ph-box">
+        <div class="ph-box-h">Synthetic field_0264</div>
+        <ul class="ph-list"><li>Synthetic example 0615</li><li>Synthetic example 0616</li><li>Synthetic example 0617</li><li>Synthetic example 0618</li><li>Synthetic example 0619</li></ul>
+        <div class="ph-box-h mt">Synthetic field_0152</div>
+        <div class="ph-own">Synthetic example 0620</div>
+      </div>
+    </div>
+
+    <div class="ph-script"><div class="ph-box-h">Synthetic field_0265</div>Synthetic example 0621</div>
+
+    <div class="ph-grid">
+      <div class="ph-box ok">
+        <div class="ph-box-h">✓ Synthetic field_0266</div>
+        <ul class="ph-list"><li>Synthetic example 0622</li><li>Synthetic example 0623</li><li>Synthetic example 0624</li><li>Synthetic example 0625</li><li>Synthetic example 0626</li></ul>
+      </div>
+      <div class="ph-box warn">
+        <div class="ph-box-h">⚠ Synthetic field_0267</div>
+        <ul class="ph-list"><li><b>Synthetic example 0627</b>：Synthetic example 0628</li><li><b>Synthetic example 0629</b>：Synthetic example 0630</li><li><b>Synthetic example 0631</b>：Synthetic example 0632</li><li><b>Synthetic example 0633</b>：Synthetic example 0634</li></ul>
+      </div>
+    </div>
+  </div>
+</div><div class="phase" id="phase-synthetic-id-635">
+  <div class="ph-head">
+    <div class="ph-id">synthetic-id-635</div>
+    <div class="ph-title">
+      <div class="ph-name">Synthetic example 0636 <span class="ph-tag">Synthetic example 0638</span></div>
+      <div class="ph-date">Synthetic example 0637</div>
+    </div>
+  </div>
+  <div class="ph-body">
+    <div class="ph-goal"><b>Synthetic field_0262：</b>Synthetic example 0639</div>
+    <div class="ph-kpi"><b>Synthetic field_0259 KPI：</b><ul><li>Synthetic example 0640</li><li>Synthetic example 0641</li><li>Synthetic example 0642</li><li>Synthetic example 0643</li></ul></div>
+
+    <div class="ph-grid">
+      <div class="ph-box">
+        <div class="ph-box-h">Synthetic field_0263</div>
+        <ul class="ph-act"><li><span class="tag tag-star">Synthetic example 0645</span>Synthetic example 0644</li><li><span class="tag tag-star">Synthetic example 0647</span>Synthetic example 0646</li><li><span class="tag tag-star">Synthetic example 0649</span>Synthetic example 0648</li><li><span class="tag tag-star">Synthetic example 0651</span>Synthetic example 0650</li><li><span class="tag tag-star">Synthetic example 0653</span>Synthetic example 0652</li><li><span class="tag tag-star">Synthetic example 0655</span>Synthetic example 0654</li><li><span class="tag tag-star">Synthetic example 0657</span>Synthetic example 0656</li></ul>
+      </div>
+      <div class="ph-box">
+        <div class="ph-box-h">Synthetic field_0264</div>
+        <ul class="ph-list"><li>Synthetic example 0658</li><li>Synthetic example 0659</li><li>Synthetic example 0660</li><li>Synthetic example 0661</li><li>Synthetic example 0662</li></ul>
+        <div class="ph-box-h mt">Synthetic field_0152</div>
+        <div class="ph-own">Synthetic example 0663</div>
+      </div>
+    </div>
+
+    <div class="ph-script"><div class="ph-box-h">Synthetic field_0265</div>Synthetic example 0664</div>
+
+    <div class="ph-grid">
+      <div class="ph-box ok">
+        <div class="ph-box-h">✓ Synthetic field_0266</div>
+        <ul class="ph-list"><li>Synthetic example 0665</li><li>Synthetic example 0666</li><li>Synthetic example 0667</li><li>Synthetic example 0668</li><li>Synthetic example 0669</li></ul>
+      </div>
+      <div class="ph-box warn">
+        <div class="ph-box-h">⚠ Synthetic field_0267</div>
+        <ul class="ph-list"><li><b>Synthetic example 0670</b>：Synthetic example 0671</li><li><b>Synthetic example 0672</b>：Synthetic example 0673</li><li><b>Synthetic example 0674</b>：Synthetic example 0675</li></ul>
+      </div>
+    </div>
+  </div>
+</div><div class="phase" id="phase-synthetic-id-676">
+  <div class="ph-head">
+    <div class="ph-id">synthetic-id-676</div>
+    <div class="ph-title">
+      <div class="ph-name">Synthetic example 0677 <span class="ph-tag">Synthetic example 0679</span></div>
+      <div class="ph-date">Synthetic example 0678</div>
+    </div>
+  </div>
+  <div class="ph-body">
+    <div class="ph-goal"><b>Synthetic field_0262：</b>Synthetic example 0680</div>
+    <div class="ph-kpi"><b>Synthetic field_0259 KPI：</b><ul><li>Synthetic example 0681</li><li>Synthetic example 0682</li><li>Synthetic example 0683</li><li>Synthetic example 0684</li><li>Synthetic example 0685</li></ul></div>
+
+    <div class="ph-grid">
+      <div class="ph-box">
+        <div class="ph-box-h">Synthetic field_0263</div>
+        <ul class="ph-act"><li><span class="tag tag-star">Synthetic example 0687</span>Synthetic example 0686</li><li><span class="tag tag-star">Synthetic example 0689</span>Synthetic example 0688</li><li><span class="tag tag-star">Synthetic example 0691</span>Synthetic example 0690</li><li><span class="tag tag-star">Synthetic example 0693</span>Synthetic example 0692</li><li><span class="tag tag-star">Synthetic example 0695</span>Synthetic example 0694</li><li><span class="tag tag-star">Synthetic example 0697</span>Synthetic example 0696</li><li><span class="tag tag-star">Synthetic example 0699</span>Synthetic example 0698</li><li><span class="tag tag-star">Synthetic example 0701</span>Synthetic example 0700</li><li><span class="tag tag-star">Synthetic example 0703</span>Synthetic example 0702</li><li><span class="tag tag-star">Synthetic example 0705</span>Synthetic example 0704</li><li><span class="tag tag-star">Synthetic example 0707</span>Synthetic example 0706</li></ul>
+      </div>
+      <div class="ph-box">
+        <div class="ph-box-h">Synthetic field_0264</div>
+        <ul class="ph-list"><li>Synthetic example 0708</li><li>Synthetic example 0709</li><li>Synthetic example 0710</li><li>Synthetic example 0711</li><li>Synthetic example 0712</li><li>Synthetic example 0713</li><li>Synthetic example 0714</li><li>Synthetic example 0715</li><li>Synthetic example 0716</li><li>Synthetic example 0717</li></ul>
+        <div class="ph-box-h mt">Synthetic field_0152</div>
+        <div class="ph-own">Synthetic example 0718</div>
+      </div>
+    </div>
+
+    <div class="ph-script"><div class="ph-box-h">Synthetic field_0265</div>Synthetic example 0719</div>
+
+    <div class="ph-grid">
+      <div class="ph-box ok">
+        <div class="ph-box-h">✓ Synthetic field_0266</div>
+        <ul class="ph-list"><li>Synthetic example 0720</li><li>Synthetic example 0721</li><li>Synthetic example 0722</li><li>Synthetic example 0723</li><li>Synthetic example 0724</li><li>Synthetic example 0725</li></ul>
+      </div>
+      <div class="ph-box warn">
+        <div class="ph-box-h">⚠ Synthetic field_0267</div>
+        <ul class="ph-list"><li><b>Synthetic example 0726</b>：Synthetic example 0727</li><li><b>Synthetic example 0728</b>：Synthetic example 0729</li><li><b>Synthetic example 0730</b>：Synthetic example 0731</li><li><b>Synthetic example 0732</b>：Synthetic example 0733</li><li><b>Synthetic example 0734</b>：Synthetic example 0735</li><li><b>Synthetic example 0736</b>：Synthetic example 0737</li></ul>
+      </div>
+    </div>
+  </div>
+</div><div class="phase" id="phase-synthetic-id-738">
+  <div class="ph-head">
+    <div class="ph-id">synthetic-id-738</div>
+    <div class="ph-title">
+      <div class="ph-name">Synthetic example 0739 <span class="ph-tag">Synthetic example 0741</span></div>
+      <div class="ph-date">Synthetic example 0740</div>
+    </div>
+  </div>
+  <div class="ph-body">
+    <div class="ph-goal"><b>Synthetic field_0262：</b>Synthetic example 0742</div>
+    <div class="ph-kpi"><b>Synthetic field_0259 KPI：</b><ul><li>Synthetic example 0743</li><li>Synthetic example 0744</li><li>Synthetic example 0745</li><li>Synthetic example 0746</li></ul></div>
+
+    <div class="ph-grid">
+      <div class="ph-box">
+        <div class="ph-box-h">Synthetic field_0263</div>
+        <ul class="ph-act"><li><span class="tag tag-star">Synthetic example 0748</span>Synthetic example 0747</li><li><span class="tag tag-star">Synthetic example 0750</span>Synthetic example 0749</li><li><span class="tag tag-star">Synthetic example 0752</span>Synthetic example 0751</li><li><span class="tag tag-star">Synthetic example 0754</span>Synthetic example 0753</li><li><span class="tag tag-star">Synthetic example 0756</span>Synthetic example 0755</li><li><span class="tag tag-star">Synthetic example 0758</span>Synthetic example 0757</li><li><span class="tag tag-star">Synthetic example 0760</span>Synthetic example 0759</li><li><span class="tag tag-star">Synthetic example 0762</span>Synthetic example 0761</li><li><span class="tag tag-star">Synthetic example 0764</span>Synthetic example 0763</li></ul>
+      </div>
+      <div class="ph-box">
+        <div class="ph-box-h">Synthetic field_0264</div>
+        <ul class="ph-list"><li>Synthetic example 0765</li><li>Synthetic example 0766</li><li>Synthetic example 0767</li><li>Synthetic example 0768</li><li>Synthetic example 0769</li><li>Synthetic example 0770</li><li>Synthetic example 0771</li></ul>
+        <div class="ph-box-h mt">Synthetic field_0152</div>
+        <div class="ph-own">Synthetic example 0772</div>
+      </div>
+    </div>
+
+    <div class="ph-script"><div class="ph-box-h">Synthetic field_0265</div>Synthetic example 0773</div>
+
+    <div class="ph-grid">
+      <div class="ph-box ok">
+        <div class="ph-box-h">✓ Synthetic field_0266</div>
+        <ul class="ph-list"><li>Synthetic example 0774</li><li>Synthetic example 0775</li><li>Synthetic example 0776</li><li>Synthetic example 0777</li><li>Synthetic example 0778</li></ul>
+      </div>
+      <div class="ph-box warn">
+        <div class="ph-box-h">⚠ Synthetic field_0267</div>
+        <ul class="ph-list"><li><b>Synthetic example 0779</b>：Synthetic example 0780</li><li><b>Synthetic example 0781</b>：Synthetic example 0782</li><li><b>Synthetic example 0783</b>：Synthetic example 0784</li></ul>
+      </div>
+    </div>
+  </div>
+</div><div class="phase" id="phase-synthetic-id-785">
+  <div class="ph-head">
+    <div class="ph-id">synthetic-id-785</div>
+    <div class="ph-title">
+      <div class="ph-name">Synthetic example 0786 <span class="ph-tag">Synthetic example 0788</span></div>
+      <div class="ph-date">Synthetic example 0787</div>
+    </div>
+  </div>
+  <div class="ph-body">
+    <div class="ph-goal"><b>Synthetic field_0262：</b>Synthetic example 0789</div>
+    <div class="ph-kpi"><b>Synthetic field_0259 KPI：</b><ul><li>Synthetic example 0790</li><li>Synthetic example 0791</li><li>Synthetic example 0792</li><li>Synthetic example 0793</li><li>Synthetic example 0794</li></ul></div>
+
+    <div class="ph-grid">
+      <div class="ph-box">
+        <div class="ph-box-h">Synthetic field_0263</div>
+        <ul class="ph-act"><li><span class="tag tag-star">Synthetic example 0796</span>Synthetic example 0795</li><li><span class="tag tag-star">Synthetic example 0798</span>Synthetic example 0797</li><li><span class="tag tag-star">Synthetic example 0800</span>Synthetic example 0799</li><li><span class="tag tag-star">Synthetic example 0802</span>Synthetic example 0801</li><li><span class="tag tag-star">Synthetic example 0804</span>Synthetic example 0803</li><li><span class="tag tag-star">Synthetic example 0806</span>Synthetic example 0805</li></ul>
+      </div>
+      <div class="ph-box">
+        <div class="ph-box-h">Synthetic field_0264</div>
+        <ul class="ph-list"><li>Synthetic example 0807</li><li>Synthetic example 0808</li><li>Synthetic example 0809</li><li>Synthetic example 0810</li><li>Synthetic example 0811</li></ul>
+        <div class="ph-box-h mt">Synthetic field_0152</div>
+        <div class="ph-own">Synthetic example 0812</div>
+      </div>
+    </div>
+
+    <div class="ph-script"><div class="ph-box-h">Synthetic field_0265</div>Synthetic example 0813</div>
+
+    <div class="ph-grid">
+      <div class="ph-box ok">
+        <div class="ph-box-h">✓ Synthetic field_0266</div>
+        <ul class="ph-list"><li>Synthetic example 0814</li><li>Synthetic example 0815</li><li>Synthetic example 0816</li><li>Synthetic example 0817</li></ul>
+      </div>
+      <div class="ph-box warn">
+        <div class="ph-box-h">⚠ Synthetic field_0267</div>
+        <ul class="ph-list"><li><b>Synthetic example 0818</b>：Synthetic example 0819</li><li><b>Synthetic example 0820</b>：Synthetic example 0821</li></ul>
+      </div>
+    </div>
+  </div>
+</div></section>
+    
+<section id="content" class="sec"><div class="sec-head"><span class="sec-num">09</span><div><h2>Synthetic field_0269</h2><p class="sec-sub">Synthetic field_0452、Synthetic field_0453、Synthetic field_0454、Synthetic field_0455——Synthetic field_0456</p></div></div>
+
+<h3 class="h3">Synthetic field_0048、Synthetic field_0270：EXAMPLE Synthetic field_0271</h3>
+<div class="note"><b>Synthetic field_0272：</b>Synthetic example 0822</div>
+<table class="tb "><thead><tr><th>Synthetic field_0273</th><th>Synthetic field_0274</th></tr></thead><tbody><tr><td><b>Synthetic example 0823</b></td><td>Synthetic example 0824</td></tr><tr><td><b>Synthetic example 0825</b></td><td>Synthetic example 0826</td></tr><tr><td><b>Synthetic example 0827</b></td><td>Synthetic example 0828</td></tr><tr><td><b>Synthetic example 0829</b></td><td>Synthetic example 0830</td></tr><tr><td><b>Synthetic example 0831</b></td><td>Synthetic example 0832</td></tr><tr><td><b>Synthetic example 0833</b></td><td>Synthetic example 0834</td></tr></tbody></table>
+<div class="note mt">Synthetic example 0835</div>
+
+<h3 class="h3">Synthetic field_0107、Synthetic field_0457：Synthetic field_0276 EXAMPLE Synthetic field_0458，Synthetic field_0459</h3>
+<div class="flyer-wrap">
+  <div class="flyer">
+    <div class="flyer-side">Synthetic field_0276 FRONT</div>
+    <div class="fy-head">Synthetic example 0837</div>
+    <div class="fy-sub">Synthetic example 0838</div>
+    <div class="fy-hook">Synthetic example 0839</div>
+    <div class="fy-bene">Synthetic example 0840</div>
+    <div class="fy-qr">Synthetic example 0841</div>
+    <div class="fy-note">Synthetic example 0842</div>
+  </div>
+  <div class="flyer">
+    <div class="flyer-side">Synthetic field_0277 BACK</div>
+    <div class="fy-title">Synthetic example 0843</div>
+    <ul class="fy-paths"><li><b>Synthetic example 0844</b><br>Synthetic example 0845</li><li><b>Synthetic example 0846</b><br>Synthetic example 0847</li><li><b>Synthetic example 0848</b><br>Synthetic example 0849</li><li><b>Synthetic example 0850</b><br>Synthetic example 0851</li></ul>
+    <div class="fy-data">Synthetic example 0852</div>
+    <div class="fy-contact">Synthetic example 0853</div>
+  </div>
+</div>
+
+<h3 class="h3">Synthetic field_0147、Synthetic field_0280：EXAMPLE Synthetic field_0281（Synthetic field_0282，Synthetic field_0283）</h3>
+<div class="wall">
+<div class="w-item">
+    <div class="w-no">Synthetic example 0854</div>
+    <div class="w-body">
+      <div class="w-title">Synthetic example 0855</div>
+      <div class="w-text">Synthetic example 0856</div>
+      <div class="w-meta"><b>Synthetic field_0287：</b>Synthetic example 0857</div>
+      <div class="w-cta"><b>Synthetic field_0288：</b>Synthetic example 0858</div>
+    </div>
+  </div><div class="w-item">
+    <div class="w-no">Synthetic example 0859</div>
+    <div class="w-body">
+      <div class="w-title">Synthetic example 0860</div>
+      <div class="w-text">Synthetic example 0861</div>
+      <div class="w-meta"><b>Synthetic field_0287：</b>Synthetic example 0862</div>
+      <div class="w-cta"><b>Synthetic field_0288：</b>Synthetic example 0863</div>
+    </div>
+  </div><div class="w-item">
+    <div class="w-no">Synthetic example 0864</div>
+    <div class="w-body">
+      <div class="w-title">Synthetic example 0865</div>
+      <div class="w-text">Synthetic example 0866</div>
+      <div class="w-meta"><b>Synthetic field_0287：</b>Synthetic example 0867</div>
+      <div class="w-cta"><b>Synthetic field_0288：</b>Synthetic example 0868</div>
+    </div>
+  </div><div class="w-item">
+    <div class="w-no">Synthetic example 0869</div>
+    <div class="w-body">
+      <div class="w-title">Synthetic example 0870</div>
+      <div class="w-text">Synthetic example 0871</div>
+      <div class="w-meta"><b>Synthetic field_0287：</b>Synthetic example 0872</div>
+      <div class="w-cta"><b>Synthetic field_0288：</b>Synthetic example 0873</div>
+    </div>
+  </div><div class="w-item">
+    <div class="w-no">Synthetic example 0874</div>
+    <div class="w-body">
+      <div class="w-title">Synthetic example 0875</div>
+      <div class="w-text">Synthetic example 0876</div>
+      <div class="w-meta"><b>Synthetic field_0287：</b>Synthetic example 0877</div>
+      <div class="w-cta"><b>Synthetic field_0288：</b>Synthetic example 0878</div>
+    </div>
+  </div><div class="w-item">
+    <div class="w-no">Synthetic example 0879</div>
+    <div class="w-body">
+      <div class="w-title">Synthetic example 0880</div>
+      <div class="w-text">Synthetic example 0881</div>
+      <div class="w-meta"><b>Synthetic field_0287：</b>Synthetic example 0882</div>
+      <div class="w-cta"><b>Synthetic field_0288：</b>Synthetic example 0883</div>
+    </div>
+  </div>
+</div>
+
+<h3 class="h3">Synthetic field_0161、Synthetic field_0290（EXAMPLE Synthetic field_0291）</h3>
+<div class="live">
+    <div class="live-h">Synthetic example 0884《Synthetic example 0885》<span class="live-when">Synthetic example 0887　Synthetic field_0292 Synthetic example 0886</span></div>
+    <ol class="live-flow"><li>Synthetic example 0888</li><li>Synthetic example 0889</li><li>Synthetic example 0890</li><li>Synthetic example 0891</li><li>Synthetic example 0892</li></ol>
+    <div class="live-tip"><b>Synthetic field_0293：</b>Synthetic example 0893</div>
+  </div><div class="live">
+    <div class="live-h">Synthetic example 0894《Synthetic example 0895》<span class="live-when">Synthetic example 0897　Synthetic field_0292 Synthetic example 0896</span></div>
+    <ol class="live-flow"><li>Synthetic example 0898</li><li>Synthetic example 0899</li><li>Synthetic example 0900</li><li>Synthetic example 0901</li><li>Synthetic example 0902</li></ol>
+    <div class="live-tip"><b>Synthetic field_0293：</b>Synthetic example 0903</div>
+  </div>
+
+<h3 class="h3">Synthetic field_0173、Synthetic field_0294（EXAMPLE Synthetic field_0460 EXAMPLE Synthetic field_0461）</h3>
+<ul class="bullets"><li>Synthetic example 0904</li><li>Synthetic example 0905</li><li>Synthetic example 0906</li><li>Synthetic example 0907</li><li>Synthetic example 0908</li><li>Synthetic example 0909</li></ul></section>
+    
+<section id="ops" class="sec"><div class="sec-head"><span class="sec-num">10</span><div><h2>Synthetic field_0298 SOP</h2><p class="sec-sub">Synthetic field_0462，Synthetic field_0463</p></div></div>
+
+<h3 class="h3">Synthetic field_0048、Synthetic field_0464</h3>
+<div class="note"><b>Synthetic field_0299：</b>Synthetic example 0910</div>
+<table class="tb "><thead><tr><th>Synthetic field_0301</th><th>Synthetic field_0302</th><th>Synthetic field_0303</th></tr></thead><tbody><tr><td>Synthetic example 0911</td><td><span class="pt">+1</span></td><td>Synthetic example 0912</td></tr><tr><td>Synthetic example 0913</td><td><span class="pt">+1</span></td><td>Synthetic example 0914</td></tr><tr><td>Synthetic example 0915</td><td><span class="pt">+1</span></td><td>Synthetic example 0916</td></tr><tr><td>Synthetic example 0917</td><td><span class="pt">+1</span></td><td>Synthetic example 0918</td></tr><tr><td>Synthetic example 0919</td><td><span class="pt">+1</span></td><td>Synthetic example 0920</td></tr><tr><td>Synthetic example 0921</td><td><span class="pt">+1</span></td><td>Synthetic example 0922</td></tr><tr><td>Synthetic example 0923</td><td><span class="pt">+1</span></td><td>Synthetic example 0924</td></tr><tr><td>Synthetic example 0925</td><td><span class="pt">+1</span></td><td>Synthetic example 0926</td></tr><tr><td>Synthetic example 0927</td><td><span class="pt">+1</span></td><td>Synthetic example 0928</td></tr><tr><td>Synthetic example 0929</td><td><span class="pt">+1</span></td><td>Synthetic example 0930</td></tr><tr><td>Synthetic example 0931</td><td><span class="pt">+1</span></td><td>Synthetic example 0932</td></tr><tr><td>Synthetic example 0933</td><td><span class="pt">+1</span></td><td>Synthetic example 0934</td></tr><tr><td>Synthetic example 0935</td><td><span class="pt">+1</span></td><td>Synthetic example 0936</td></tr></tbody></table>
+<h4 class="h4">Synthetic field_0304</h4>
+<table class="tb "><thead><tr><th>Synthetic field_0305</th><th>Synthetic field_0306</th></tr></thead><tbody><tr><td><span class="pt">Synthetic example 0937</span></td><td>Synthetic example 0938</td></tr><tr><td><span class="pt">Synthetic example 0939</span></td><td>Synthetic example 0940</td></tr><tr><td><span class="pt">Synthetic example 0941</span></td><td>Synthetic example 0942</td></tr><tr><td><span class="pt">Synthetic example 0943</span></td><td>Synthetic example 0944</td></tr><tr><td><span class="pt">Synthetic example 0945</span></td><td>Synthetic example 0946</td></tr></tbody></table>
+<h4 class="h4">Synthetic field_0307</h4>
+<ul class="bullets"><li>Synthetic example 0947</li><li>Synthetic example 0948</li><li>Synthetic example 0949</li><li>Synthetic example 0950</li><li>Synthetic example 0951</li><li>Synthetic example 0952</li></ul>
+
+<h3 class="h3">Synthetic field_0107、Synthetic field_0308</h3>
+<table class="tb "><thead><tr><th>Synthetic field_0081</th><th>Synthetic field_0078</th><th>Synthetic field_0307</th></tr></thead><tbody><tr><td><b>Synthetic example 0953</b></td><td>Synthetic example 0954</td><td>Synthetic example 0955</td></tr><tr><td><b>Synthetic example 0956</b></td><td>Synthetic example 0957</td><td>Synthetic example 0958</td></tr><tr><td><b>Synthetic example 0959</b></td><td>Synthetic example 0960</td><td>Synthetic example 0961</td></tr></tbody></table>
+
+<h3 class="h3">Synthetic field_0147、Synthetic field_0309（Synthetic field_0310）</h3>
+<div class="welcome">Synthetic example 0962</div>
+
+<h3 class="h3">Synthetic field_0161、Synthetic field_0311</h3>
+<table class="tb "><thead><tr><th>Synthetic field_0312</th><th>Synthetic field_0313</th></tr></thead><tbody><tr><td><b>Synthetic example 0963</b></td><td>Synthetic example 0964</td></tr><tr><td><b>Synthetic example 0965</b></td><td>Synthetic example 0966</td></tr><tr><td><b>Synthetic example 0967</b></td><td>Synthetic example 0968</td></tr><tr><td><b>Synthetic example 0969</b></td><td>Synthetic example 0970</td></tr><tr><td><b>Synthetic example 0971</b></td><td>Synthetic example 0972</td></tr><tr><td><b>Synthetic example 0973</b></td><td>Synthetic example 0974</td></tr><tr><td><b>Synthetic example 0975</b></td><td>Synthetic example 0976</td></tr></tbody></table>
+
+<h3 class="h3">Synthetic field_0173、Synthetic field_0314 SOP</h3>
+<table class="tb "><thead><tr><th>Synthetic field_0315</th><th>Synthetic field_0256</th></tr></thead><tbody><tr><td><b>Synthetic example 0977</b></td><td>Synthetic example 0978</td></tr><tr><td><b>Synthetic example 0979</b></td><td>Synthetic example 0980</td></tr><tr><td><b>Synthetic example 0981</b></td><td>Synthetic example 0982</td></tr><tr><td><b>Synthetic example 0983</b></td><td>Synthetic example 0984</td></tr><tr><td><b>Synthetic example 0985</b></td><td>Synthetic example 0986</td></tr><tr><td><b>Synthetic example 0987</b></td><td>Synthetic example 0988</td></tr></tbody></table></section>
+    
+<section id="budget" class="sec"><div class="sec-head"><span class="sec-num">11</span><div><h2>Synthetic field_0317</h2><p class="sec-sub">Synthetic field_0465、Synthetic field_0320、Synthetic field_0321、Synthetic field_0466，Synthetic field_0467</p></div></div>
+
+<div class="note">Synthetic example 0989</div>
+
+<table class="tb tb-budget"><thead><tr><th>Synthetic field_0318</th><th>Synthetic field_0010</th><th>Synthetic field_0319</th><th>Synthetic field_0320</th><th>Synthetic field_0321</th><th>Synthetic field_0322</th><th>Synthetic field_0323</th></tr></thead><tbody><tr><td>Synthetic example 0990</td><td>Synthetic example 0991</td><td>Synthetic example 0992</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 0993</td></tr><tr><td>Synthetic example 0994</td><td>Synthetic example 0995</td><td>Synthetic example 0996</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 0997</td></tr><tr><td>Synthetic example 0998</td><td>Synthetic example 0999</td><td>Synthetic example 1000</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 1001</td></tr><tr><td>Synthetic example 1002</td><td>Synthetic example 1003</td><td>Synthetic example 1004</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 1005</td></tr><tr><td>Synthetic example 1006</td><td>Synthetic example 1007</td><td>Synthetic example 1008</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 1009</td></tr><tr><td>Synthetic example 1010</td><td>Synthetic example 1011</td><td>Synthetic example 1012</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 1013</td></tr><tr><td>Synthetic example 1014</td><td>Synthetic example 1015</td><td>Synthetic example 1016</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 1017</td></tr><tr><td>Synthetic example 1018</td><td>Synthetic example 1019</td><td>Synthetic example 1020</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 1021</td></tr><tr><td>Synthetic example 1022</td><td>Synthetic example 1023</td><td>Synthetic example 1024</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 1025</td></tr><tr><td>Synthetic example 1026</td><td>Synthetic example 1027</td><td>Synthetic example 1028</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 1029</td></tr><tr><td>Synthetic example 1030</td><td>Synthetic example 1031</td><td>Synthetic example 1032</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 1033</td></tr><tr><td>Synthetic example 1034</td><td>Synthetic example 1035</td><td>Synthetic example 1036</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 1037</td></tr><tr><td>Synthetic example 1038</td><td>Synthetic example 1039</td><td>Synthetic example 1040</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 1041</td></tr><tr><td>Synthetic example 1042</td><td>Synthetic example 1043</td><td>Synthetic example 1044</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 1045</td></tr><tr><td>Synthetic example 1046</td><td>Synthetic example 1047</td><td>Synthetic example 1048</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 1049</td></tr><tr><td>Synthetic example 1050</td><td>Synthetic example 1051</td><td>Synthetic example 1052</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 1053</td></tr><tr><td>Synthetic example 1054</td><td>Synthetic example 1055</td><td>Synthetic example 1056</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 1057</td></tr><tr><td>Synthetic example 1058</td><td>Synthetic example 1059</td><td>Synthetic example 1060</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 1061</td></tr><tr><td>Synthetic example 1062</td><td>Synthetic example 1063</td><td>Synthetic example 1064</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 1065</td></tr><tr><td>Synthetic example 1066</td><td>Synthetic example 1067</td><td>Synthetic example 1068</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 1069</td></tr><tr><td>Synthetic example 1070</td><td>Synthetic example 1071</td><td>Synthetic example 1072</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 1073</td></tr><tr><td>Synthetic example 1074</td><td>Synthetic example 1075</td><td>Synthetic example 1076</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 1077</td></tr><tr><td>Synthetic example 1078</td><td>Synthetic example 1079</td><td>Synthetic example 1080</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 1081</td></tr><tr><td>Synthetic example 1082</td><td>Synthetic example 1083</td><td>Synthetic example 1084</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 1085</td></tr><tr><td>Synthetic example 1086</td><td>Synthetic example 1087</td><td>Synthetic example 1088</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 1089</td></tr><tr><td>Synthetic example 1090</td><td>Synthetic example 1091</td><td>Synthetic example 1092</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 1093</td></tr><tr><td>Synthetic example 1094</td><td>Synthetic example 1095</td><td>Synthetic example 1096</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 1097</td></tr><tr><td>Synthetic example 1098</td><td>Synthetic example 1099</td><td>Synthetic example 1100</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 1101</td></tr><tr><td>Synthetic example 1102</td><td>Synthetic example 1103</td><td>Synthetic example 1104</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 1105</td></tr><tr><td>Synthetic example 1106</td><td>Synthetic example 1107</td><td>Synthetic example 1108</td><td>1</td><td>¥1.00</td><td>¥1</td><td>Synthetic example 1109</td></tr></tbody></table>
+
+<div class="bud-sum">
+  <div class="bs-row"><span>Synthetic field_0325</span><b>¥ 30</b></div>
+  <div class="bs-sub"><span>Synthetic example 0990</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 0994</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 0998</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 1002</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 1006</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 1010</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 1014</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 1018</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 1022</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 1026</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 1030</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 1034</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 1038</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 1042</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 1046</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 1050</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 1054</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 1058</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 1062</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 1066</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 1070</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 1074</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 1078</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 1082</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 1086</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 1090</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 1094</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 1098</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 1102</span><b>¥ 1</b></div><div class="bs-sub"><span>Synthetic example 1106</span><b>¥ 1</b></div>
+  <div class="bs-row"><span>Synthetic field_0035（EXAMPLE）</span><b>¥ 3</b></div>
+  <div class="bs-total"><span>Synthetic field_0326</span><b>¥ 33</b></div>
+</div>
+
+<h3 class="h3">Synthetic field_0327</h3>
+<table class="tb "><thead><tr><th>Synthetic field_0328</th><th>Synthetic field_0329</th><th>Synthetic field_0330</th><th>Synthetic field_0331</th></tr></thead><tbody><tr><td><b>Synthetic example 1111</b></td><td>Synthetic example 1112</td><td>Synthetic example 1113</td><td>Synthetic example 1114</td></tr><tr><td><b>Synthetic example 1115</b></td><td>Synthetic example 1116</td><td>Synthetic example 1117</td><td>Synthetic example 1118</td></tr><tr><td><b>Synthetic example 1119</b></td><td>Synthetic example 1120</td><td>Synthetic example 1121</td><td>Synthetic example 1122</td></tr></tbody></table>
+
+<div class="note mt"><b>Synthetic field_0332：</b>Synthetic field_0333 EXAMPLE Synthetic field_0334；Synthetic field_0335；Synthetic field_0336，Synthetic field_0337，Synthetic field_0338。Synthetic field_0339。</div></section>
+    
+<section id="risk" class="sec"><div class="sec-head"><span class="sec-num">12</span><div><h2>Synthetic field_0341</h2><p class="sec-sub">EXAMPLE Synthetic field_0468 + EXAMPLE Synthetic field_0469</p></div></div>
+
+<h3 class="h3">Synthetic field_0048、Synthetic field_0342（Synthetic field_0470）</h3>
+<table class="tb tb-risk2"><thead><tr><th>Synthetic field_0343</th><th>Synthetic field_0344</th><th>Synthetic field_0345</th><th>Synthetic field_0346</th><th>Synthetic field_0180</th></tr></thead><tbody><tr><td><span class="rt">Synthetic example 1123</span></td><td><b>Synthetic example 1124</b></td><td>Synthetic example 1125</td><td>Synthetic example 1126</td><td>Synthetic example 1127</td></tr><tr><td><span class="rt">Synthetic example 1128</span></td><td><b>Synthetic example 1129</b></td><td>Synthetic example 1130</td><td>Synthetic example 1131</td><td>Synthetic example 1132</td></tr><tr><td><span class="rt">Synthetic example 1133</span></td><td><b>Synthetic example 1134</b></td><td>Synthetic example 1135</td><td>Synthetic example 1136</td><td>Synthetic example 1137</td></tr><tr><td><span class="rt">Synthetic example 1138</span></td><td><b>Synthetic example 1139</b></td><td>Synthetic example 1140</td><td>Synthetic example 1141</td><td>Synthetic example 1142</td></tr><tr><td><span class="rt">Synthetic example 1143</span></td><td><b>Synthetic example 1144</b></td><td>Synthetic example 1145</td><td>Synthetic example 1146</td><td>Synthetic example 1147</td></tr><tr><td><span class="rt">Synthetic example 1148</span></td><td><b>Synthetic example 1149</b></td><td>Synthetic example 1150</td><td>Synthetic example 1151</td><td>Synthetic example 1152</td></tr><tr><td><span class="rt">Synthetic example 1153</span></td><td><b>Synthetic example 1154</b></td><td>Synthetic example 1155</td><td>Synthetic example 1156</td><td>Synthetic example 1157</td></tr><tr><td><span class="rt">Synthetic example 1158</span></td><td><b>Synthetic example 1159</b></td><td>Synthetic example 1160</td><td>Synthetic example 1161</td><td>Synthetic example 1162</td></tr><tr><td><span class="rt">Synthetic example 1163</span></td><td><b>Synthetic example 1164</b></td><td>Synthetic example 1165</td><td>Synthetic example 1166</td><td>Synthetic example 1167</td></tr><tr><td><span class="rt">Synthetic example 1168</span></td><td><b>Synthetic example 1169</b></td><td>Synthetic example 1170</td><td>Synthetic example 1171</td><td>Synthetic example 1172</td></tr><tr><td><span class="rt">Synthetic example 1173</span></td><td><b>Synthetic example 1174</b></td><td>Synthetic example 1175</td><td>Synthetic example 1176</td><td>Synthetic example 1177</td></tr><tr><td><span class="rt">Synthetic example 1178</span></td><td><b>Synthetic example 1179</b></td><td>Synthetic example 1180</td><td>Synthetic example 1181</td><td>Synthetic example 1182</td></tr><tr><td><span class="rt">Synthetic example 1183</span></td><td><b>Synthetic example 1184</b></td><td>Synthetic example 1185</td><td>Synthetic example 1186</td><td>Synthetic example 1187</td></tr><tr><td><span class="rt">Synthetic example 1188</span></td><td><b>Synthetic example 1189</b></td><td>Synthetic example 1190</td><td>Synthetic example 1191</td><td>Synthetic example 1192</td></tr><tr><td><span class="rt">Synthetic example 1193</span></td><td><b>Synthetic example 1194</b></td><td>Synthetic example 1195</td><td>Synthetic example 1196</td><td>Synthetic example 1197</td></tr><tr><td><span class="rt">Synthetic example 1198</span></td><td><b>Synthetic example 1199</b></td><td>Synthetic example 1200</td><td>Synthetic example 1201</td><td>Synthetic example 1202</td></tr><tr><td><span class="rt">Synthetic example 1203</span></td><td><b>Synthetic example 1204</b></td><td>Synthetic example 1205</td><td>Synthetic example 1206</td><td>Synthetic example 1207</td></tr><tr><td><span class="rt">Synthetic example 1208</span></td><td><b>Synthetic example 1209</b></td><td>Synthetic example 1210</td><td>Synthetic example 1211</td><td>Synthetic example 1212</td></tr></tbody></table>
+
+<h3 class="h3">Synthetic field_0107、Synthetic field_0347（P0 Synthetic field_0348 EXAMPLE Synthetic field_0349）</h3>
+<table class="tb "><thead><tr><th>#</th><th>Synthetic field_0350</th><th>Synthetic field_0236</th><th>Synthetic field_0351</th><th>Synthetic field_0180</th></tr></thead><tbody><tr><td>Synthetic example 1213</td><td><b>Synthetic example 1214</b></td><td>Synthetic example 1215</td><td>Synthetic example 1216</td><td>Synthetic example 1217</td></tr><tr><td>Synthetic example 1218</td><td><b>Synthetic example 1219</b></td><td>Synthetic example 1220</td><td>Synthetic example 1221</td><td>Synthetic example 1222</td></tr><tr><td>Synthetic example 1223</td><td><b>Synthetic example 1224</b></td><td>Synthetic example 1225</td><td>Synthetic example 1226</td><td>Synthetic example 1227</td></tr><tr><td>Synthetic example 1228</td><td><b>Synthetic example 1229</b></td><td>Synthetic example 1230</td><td>Synthetic example 1231</td><td>Synthetic example 1232</td></tr><tr><td>Synthetic example 1233</td><td><b>Synthetic example 1234</b></td><td>Synthetic example 1235</td><td>Synthetic example 1236</td><td>Synthetic example 1237</td></tr><tr><td>Synthetic example 1238</td><td><b>Synthetic example 1239</b></td><td>Synthetic example 1240</td><td>Synthetic example 1241</td><td>Synthetic example 1242</td></tr><tr><td>Synthetic example 1243</td><td><b>Synthetic example 1244</b></td><td>Synthetic example 1245</td><td>Synthetic example 1246</td><td>Synthetic example 1247</td></tr><tr><td>Synthetic example 1248</td><td><b>Synthetic example 1249</b></td><td>Synthetic example 1250</td><td>Synthetic example 1251</td><td>Synthetic example 1252</td></tr></tbody></table>
+
+<div class="alert"><b>Synthetic field_0352：</b>Synthetic field_0353 EXAMPLE—EXAMPLE Synthetic field_0354（Synthetic field_0355、Synthetic field_0356、Synthetic field_0357）Synthetic field_0358，P1—P5 Synthetic field_0359。Synthetic field_0360，Synthetic field_0361「Synthetic field_0362」Synthetic field_0363——Synthetic field_0364，Synthetic field_0365，Synthetic field_0366。</div></section>
+    
+<section id="data" class="sec"><div class="sec-head"><span class="sec-num">13</span><div><h2>Synthetic field_0368</h2><p class="sec-sub">Synthetic field_0471，Synthetic field_0472</p></div></div>
+
+<h3 class="h3">Synthetic field_0048、Synthetic field_0369</h3>
+<div class="note">Synthetic example 1253</div>
+
+<h3 class="h3">Synthetic field_0107、Synthetic field_0370</h3>
+<table class="tb "><thead><tr><th>Synthetic field_0371</th><th>Synthetic field_0372</th></tr></thead><tbody><tr><td><b>Synthetic example 1254</b></td><td>Synthetic example 1255</td></tr><tr><td><b>Synthetic example 1256</b></td><td>Synthetic example 1257</td></tr><tr><td><b>Synthetic example 1258</b></td><td>Synthetic example 1259</td></tr><tr><td><b>Synthetic example 1260</b></td><td>Synthetic example 1261</td></tr><tr><td><b>Synthetic example 1262</b></td><td>Synthetic example 1263</td></tr><tr><td><b>Synthetic example 1264</b></td><td>Synthetic example 1265</td></tr></tbody></table>
+
+<h3 class="h3">Synthetic field_0147、Synthetic field_0373</h3>
+<div class="note"><b>Synthetic field_0374：</b>Synthetic example 1266</div>
+<div class="note mt"><b>Synthetic field_0375：</b>Synthetic example 1267</div>
+
+<h3 class="h3">Synthetic field_0161、Synthetic field_0376</h3>
+<ol class="bullets"><li>Synthetic example 1268</li><li>Synthetic example 1269</li><li>Synthetic example 1270</li><li>Synthetic example 1271</li><li>Synthetic example 1272</li><li>Synthetic example 1273</li></ol></section>
+    
+<section id="appx" class="sec"><div class="sec-head"><span class="sec-num">14</span><div><h2>Synthetic field_0378</h2><p class="sec-sub">Synthetic field_0473</p></div></div>
+<table class="tb "><thead><tr><th>Synthetic field_0379</th><th>Synthetic field_0011</th></tr></thead><tbody><tr><td><b>Synthetic example 1274</b></td><td>Synthetic example 1275</td></tr><tr><td><b>Synthetic example 1276</b></td><td>Synthetic example 1277</td></tr><tr><td><b>Synthetic example 1278</b></td><td>Synthetic example 1279</td></tr><tr><td><b>Synthetic example 1280</b></td><td>Synthetic example 1281</td></tr><tr><td><b>Synthetic example 1282</b></td><td>Synthetic example 1283</td></tr><tr><td><b>Synthetic example 1284</b></td><td>Synthetic example 1285</td></tr></tbody></table>
+<div class="end">— Synthetic field_0380 · EXAMPLE Synthetic field_0022 EXAMPLE Synthetic field_0023 —</div></section>
+  </main>
+</div>
+</body>
+</html>

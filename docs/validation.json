@@ -1,0 +1,87 @@
+{
+  "source_candidates_checked_unchanged": 23,
+  "public_script_adaptations": 21,
+  "python_control_structure_comparisons": 20,
+  "demo": {
+    "synthetic_only": true,
+    "jobs": [
+      {
+        "workflow": "club/save_posters.py",
+        "exit_code": 0
+      },
+      {
+        "workflow": "club/package_posters.py",
+        "exit_code": 0
+      },
+      {
+        "workflow": "event/build_pdf.py",
+        "exit_code": 0
+      },
+      {
+        "workflow": "event/build_visual_catalog.py",
+        "exit_code": 0
+      },
+      {
+        "workflow": "event/vectorize_brand.py",
+        "exit_code": 0
+      },
+      {
+        "workflow": "organization/build.js",
+        "exit_code": 0
+      }
+    ],
+    "poster_images": 16,
+    "poster_zip_member_hashes_match": true,
+    "pdf_pages": 7,
+    "catalog_items": 4,
+    "vector_mask_profiles": 4,
+    "docx": {
+      "executed": true,
+      "zip_entries": 26,
+      "paragraphs": 448,
+      "tables": 26,
+      "embedded_images": 0,
+      "actual_Word_rendering": false
+    },
+    "actual_business_archive_recreated": false,
+    "word_COM_executed": false
+  },
+  "browser": {
+    "browser": "156.0.8078.47",
+    "checks": [
+      {
+        "viewport": {
+          "width": 1200,
+          "height": 900
+        },
+        "cards": 16,
+        "images": 16,
+        "loaded": 16,
+        "overflow": false,
+        "title": "Synthetic material preview",
+        "errors": 0,
+        "external_requests": 0,
+        "private_context": true
+      },
+      {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "cards": 16,
+        "images": 16,
+        "loaded": 16,
+        "overflow": false,
+        "title": "Synthetic material preview",
+        "errors": 0,
+        "external_requests": 0,
+        "private_context": true
+      }
+    ],
+    "synthetic_output_only": true,
+    "actual_original_business_materials": false
+  },
+  "word_COM_tested": false,
+  "full_original_business_workflows_tested": false,
+  "node_direct_tested": "9.6.1 from existing app bundle; npm metadata lock generated, fresh full tree not validated; 2 transitive package versions differ"
+}

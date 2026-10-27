@@ -1,0 +1,714 @@
+{
+  "previously_archived_programs": 21,
+  "additional_programs": 34,
+  "combined_programs": 55,
+  "exact_duplicates_in_additional": 0,
+  "versions_preserved": true,
+  "files": [
+    {
+      "id": "additional-source-01",
+      "public_path": "workflows/assets/assemble_green_original.py",
+      "version_label": "assets",
+      "function_names": [],
+      "control_structure_counts": {
+        "For": 6,
+        "Assert": 1,
+        "With": 1,
+        "If": 3
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "7841d8b3ae1fe059e543fa19e8b38c6690630117325c6f2b7c30c2752abe5059"
+    },
+    {
+      "id": "additional-source-02",
+      "public_path": "workflows/assets/assemble_posters.py",
+      "version_label": "assets",
+      "function_names": [
+        "slots",
+        "overview"
+      ],
+      "control_structure_counts": {
+        "FunctionDef": 2,
+        "For": 5,
+        "With": 1,
+        "If": 3,
+        "Assert": 2
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "8d81f36864ca0ab0db331e86871b100347b2008dfdd94221e886249d6ff6c42f"
+    },
+    {
+      "id": "additional-source-03",
+      "public_path": "workflows/assets/build_brochure.py",
+      "version_label": "assets",
+      "function_names": [
+        "color",
+        "rect",
+        "text",
+        "wrap",
+        "para",
+        "line",
+        "pic",
+        "coverpic",
+        "logos",
+        "base",
+        "footer",
+        "title",
+        "qr"
+      ],
+      "control_structure_counts": {
+        "For": 14,
+        "FunctionDef": 13,
+        "With": 1,
+        "If": 4
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "7837f12ff5a70479c83ecb7da94bd35cce8a0025e2f18949a9ca3c29c8a00faa"
+    },
+    {
+      "id": "additional-source-04",
+      "public_path": "workflows/assets/build_catalog.py",
+      "version_label": "assets",
+      "function_names": [
+        "price_table"
+      ],
+      "control_structure_counts": {
+        "FunctionDef": 1,
+        "For": 9,
+        "Try": 1
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "d91a89877a61cef57970b45b1c8bc969e6be3824156893ddf08269964b6cad9a"
+    },
+    {
+      "id": "additional-source-05",
+      "public_path": "workflows/assets/build_pdf_refined.py",
+      "version_label": "assets",
+      "function_names": [
+        "svgfile",
+        "rect",
+        "txt",
+        "para",
+        "pic",
+        "contain",
+        "photo",
+        "svg",
+        "bg",
+        "logos",
+        "company",
+        "title",
+        "badge",
+        "notes",
+        "prices",
+        "cover",
+        "contact",
+        "a_pages",
+        "b_pages",
+        "export"
+      ],
+      "control_structure_counts": {
+        "FunctionDef": 20,
+        "For": 17,
+        "If": 7,
+        "Assert": 3
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "6befebd677f1738c199d9d6b8750a2a14228468eda5feec3688f1b9dbfd2c3be"
+    },
+    {
+      "id": "additional-source-06",
+      "public_path": "workflows/assets/campus_prepare.py",
+      "version_label": "assets",
+      "function_names": [],
+      "control_structure_counts": {
+        "If": 1,
+        "For": 1
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "31748e5d4f2cab9e01d90aef8458ce95290cfa8f93b79711732a1cd03c687c5e"
+    },
+    {
+      "id": "additional-source-07",
+      "public_path": "workflows/assets/crop_original_panels.py",
+      "version_label": "assets",
+      "function_names": [],
+      "control_structure_counts": {
+        "For": 1
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "bb3de05a9d143c9b41eb934c25f2dbf1917613dfdd0580f205ef0564d4c7e721"
+    },
+    {
+      "id": "additional-source-08",
+      "public_path": "workflows/assets/extract_pdf_assets.py",
+      "version_label": "assets",
+      "function_names": [],
+      "control_structure_counts": {
+        "For": 3,
+        "If": 3
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "649ca84e1535a7d0d139ffe31002928998f4b7e55be07424e2668374e3188366"
+    },
+    {
+      "id": "additional-source-09",
+      "public_path": "workflows/assets/fetch_aircraft.py",
+      "version_label": "assets",
+      "function_names": [],
+      "control_structure_counts": {
+        "For": 1,
+        "Try": 1
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "accb045a4e6dc55f42df34a078afd8684eabcbfbd1a4569309a283e4a183cad0"
+    },
+    {
+      "id": "additional-source-10",
+      "public_path": "workflows/assets/finalize.py",
+      "version_label": "assets",
+      "function_names": [
+        "fmt",
+        "footer"
+      ],
+      "control_structure_counts": {
+        "For": 12,
+        "FunctionDef": 2,
+        "While": 2,
+        "If": 11,
+        "With": 2,
+        "Assert": 5
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "052a95a0da8acd2c79ab6b480ddd4e7695f2ba2019d9697467064498ddd3f86e"
+    },
+    {
+      "id": "additional-source-11",
+      "public_path": "workflows/assets/make_60x80_posters.py",
+      "version_label": "assets",
+      "function_names": [
+        "valid_image",
+        "edge_extended_canvas",
+        "add_bleed",
+        "save_pdf",
+        "main"
+      ],
+      "control_structure_counts": {
+        "FunctionDef": 5,
+        "If": 6,
+        "Try": 1,
+        "For": 3,
+        "With": 3
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "1d64600e3e5ed5bba1cbb02f8aa87a8c64e6725c06bd7de924fbe3fc0b62210b"
+    },
+    {
+      "id": "additional-source-12",
+      "public_path": "workflows/assets/edition_0627/prepare_double_sided_flyers.py",
+      "version_label": "assets\\edition_0627",
+      "function_names": [
+        "scaled_box",
+        "cover_text",
+        "qr_crop",
+        "place_qr"
+      ],
+      "control_structure_counts": {
+        "FunctionDef": 4,
+        "For": 2,
+        "If": 1
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "97e8d110caee8631a1903c4d45236949e3a5f2e5122cb9fc6bdbb07a88e3b6ed"
+    },
+    {
+      "id": "additional-source-13",
+      "public_path": "workflows/assets/edition_0642/build_brochure.py",
+      "version_label": "assets\\edition_0642",
+      "function_names": [
+        "rgb",
+        "rect",
+        "text",
+        "line",
+        "photo",
+        "clipped_original",
+        "page",
+        "heading"
+      ],
+      "control_structure_counts": {
+        "For": 8,
+        "FunctionDef": 8,
+        "If": 3,
+        "Assert": 3
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "5e9c13603e05d1fac444fed699641b3027b17d2c97a6ce4f45d8ae10b0497390"
+    },
+    {
+      "id": "additional-source-14",
+      "public_path": "workflows/assets/edition_0793/build_pdf.py",
+      "version_label": "assets\\edition_0793",
+      "function_names": [],
+      "control_structure_counts": {
+        "For": 1
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "fc789d6cb5852d92a5c3f7d644b05ee2bd612a4bc557b5f060f986dd10c8f7c3"
+    },
+    {
+      "id": "additional-source-15",
+      "public_path": "workflows/assets/edition_0795/prepare_60x80.py",
+      "version_label": "assets\\edition_0795",
+      "function_names": [
+        "open_print",
+        "qr_crop",
+        "save_pdf"
+      ],
+      "control_structure_counts": {
+        "FunctionDef": 3,
+        "For": 4
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "58de7c62a8e26c9cf12d3179a84b5f17a345e7ea2c4fd66499948fdf0d6a3795"
+    },
+    {
+      "id": "additional-source-16",
+      "public_path": "workflows/club/build.cjs",
+      "version_label": "club",
+      "function_names": [
+        "tx",
+        "box",
+        "line",
+        "chart",
+        "run",
+        "p",
+        "head",
+        "h",
+        "band",
+        "body",
+        "note",
+        "role",
+        "link",
+        "event",
+        "pic",
+        "branch",
+        "main"
+      ],
+      "control_structure_counts": {
+        "FunctionDeclaration": 17
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "cbcf054bff6a7327b12f88ae25e58cec9cf405453fa5a6a8b5f094bd4a3db0ce"
+    },
+    {
+      "id": "additional-source-17",
+      "public_path": "workflows/club/revise.cjs",
+      "version_label": "club",
+      "function_names": [
+        "text",
+        "rect",
+        "line",
+        "diagram",
+        "run",
+        "p",
+        "title",
+        "h",
+        "row",
+        "band",
+        "link",
+        "event",
+        "main"
+      ],
+      "control_structure_counts": {
+        "FunctionDeclaration": 13,
+        "ForOfStatement": 1,
+        "IfStatement": 2
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "76f2c3f68d4361f9fe5cfac6ac5f09c4314019e39fc5dde9ecf684dcc88e5dac"
+    },
+    {
+      "id": "additional-source-18",
+      "public_path": "workflows/club/revise_teacher.cjs",
+      "version_label": "club",
+      "function_names": [
+        "text",
+        "rect",
+        "line",
+        "diagram",
+        "run",
+        "p",
+        "title",
+        "h",
+        "row",
+        "band",
+        "link",
+        "event",
+        "main"
+      ],
+      "control_structure_counts": {
+        "FunctionDeclaration": 13,
+        "ForOfStatement": 1,
+        "IfStatement": 2
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "82d7f425daef3cd80e73f20435ba3e6d7b09ffa6d7a72dfa13f8ae702ab6ff49"
+    },
+    {
+      "id": "additional-source-19",
+      "public_path": "workflows/event/add_visual_references.cjs",
+      "version_label": "event",
+      "function_names": [
+        "run",
+        "link",
+        "para",
+        "after",
+        "row"
+      ],
+      "control_structure_counts": {
+        "IfStatement": 5,
+        "FunctionDeclaration": 5,
+        "ForOfStatement": 1
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "21aa7ae7cb5e6f924b6c1ecf4753f99d9a326a71e411ea33f83d54d4ea63fa05"
+    },
+    {
+      "id": "additional-source-20",
+      "public_path": "workflows/event/build_docx.cjs",
+      "version_label": "event",
+      "function_names": [
+        "run",
+        "para",
+        "h2",
+        "table"
+      ],
+      "control_structure_counts": {
+        "FunctionDeclaration": 4,
+        "ForStatement": 1,
+        "IfStatement": 5,
+        "ForOfStatement": 1
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "754786057b6007c8da6fc2012acb999874df802fc41702c2a04ed995a804194d"
+    },
+    {
+      "id": "additional-source-21",
+      "public_path": "workflows/event/build_visual_galleries.cjs",
+      "version_label": "event",
+      "function_names": [
+        "para",
+        "cell",
+        "section",
+        "build"
+      ],
+      "control_structure_counts": {
+        "IfStatement": 3,
+        "FunctionDeclaration": 4,
+        "ForOfStatement": 2,
+        "ForStatement": 1
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "2f511b55e400debb70d7d2d0a63bd6931e2d0ad0412b96c67d2a667fc485842a"
+    },
+    {
+      "id": "additional-source-22",
+      "public_path": "workflows/event/insert_visual_xml.cjs",
+      "version_label": "event",
+      "function_names": [
+        "fragment",
+        "insertAfter"
+      ],
+      "control_structure_counts": {
+        "ForOfStatement": 2,
+        "IfStatement": 6,
+        "FunctionDeclaration": 2
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "0254e31975ef35c4ca2b3b232fe97417fd1a2d2518ed5a5a6dbe2157d071a519"
+    },
+    {
+      "id": "additional-source-23",
+      "public_path": "workflows/event/v3_build_posters.cjs",
+      "version_label": "event",
+      "function_names": [],
+      "control_structure_counts": {
+        "ForOfStatement": 2,
+        "IfStatement": 4
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "116f4a83f7425c7931979669457655ccfd0fe5c194d269a697b7f2020f740549"
+    },
+    {
+      "id": "additional-source-24",
+      "public_path": "workflows/event/v3_build_props.cjs",
+      "version_label": "event",
+      "function_names": [
+        "cutSave"
+      ],
+      "control_structure_counts": {
+        "FunctionDeclaration": 1,
+        "ForStatement": 7,
+        "ForOfStatement": 7
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "6289a0a6c9b2f2b0be69c521c93ab6fe0458e17a2628bfdc0e4ff775139150d9"
+    },
+    {
+      "id": "additional-source-25",
+      "public_path": "workflows/event/v3_clip_audit.cjs",
+      "version_label": "event",
+      "function_names": [
+        "clone",
+        "pick",
+        "unclip",
+        "pixels",
+        "scan"
+      ],
+      "control_structure_counts": {
+        "ForOfStatement": 5,
+        "FunctionDeclaration": 5,
+        "IfStatement": 11,
+        "ForStatement": 1
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "5a9f3aa0164e02a521d3101be1ad1115c36588403076707aea335f4c9e035cf7"
+    },
+    {
+      "id": "additional-source-26",
+      "public_path": "workflows/event/v3_design.cjs",
+      "version_label": "event",
+      "function_names": [
+        "xml",
+        "img",
+        "svgEmbed",
+        "rect",
+        "line",
+        "poly",
+        "T",
+        "checkers",
+        "brush",
+        "base",
+        "header",
+        "dateLine",
+        "drone",
+        "gate",
+        "icon",
+        "badgeLogo",
+        "duo",
+        "bg",
+        "footer",
+        "eventTitles",
+        "poster01",
+        "poster02",
+        "rules43",
+        "wrap",
+        "save"
+      ],
+      "control_structure_counts": {
+        "FunctionDeclaration": 25,
+        "IfStatement": 26,
+        "ForStatement": 5,
+        "ForOfStatement": 3
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "deef03b8f73201d5f58be30baecbbf25f7abc4a304970b9b5a5846c18ea99eaa"
+    },
+    {
+      "id": "additional-source-27",
+      "public_path": "workflows/event/v3_extras.cjs",
+      "version_label": "event",
+      "function_names": [],
+      "control_structure_counts": {
+        "ForOfStatement": 2
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "37df39c4deae6503dc81f32585f0d4375882315ddb0b3a8ee42cf08f7113ff41"
+    },
+    {
+      "id": "additional-source-28",
+      "public_path": "workflows/event/v3_gallery.cjs",
+      "version_label": "event",
+      "function_names": [
+        "pdfWrite"
+      ],
+      "control_structure_counts": {
+        "ForOfStatement": 4,
+        "FunctionDeclaration": 1,
+        "IfStatement": 5
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "9b36d3a8b775d394c9ca2947b4bdd40539a61abc110896f4cd15fea15db55422"
+    },
+    {
+      "id": "additional-source-29",
+      "public_path": "workflows/event/v3_gate.cjs",
+      "version_label": "event",
+      "function_names": [],
+      "control_structure_counts": {
+        "ForOfStatement": 1,
+        "IfStatement": 2
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "350f066699a4e80507e2c47752ec090d17bc713a225fffb3a3c388ed8b45ced8"
+    },
+    {
+      "id": "additional-source-30",
+      "public_path": "workflows/event/v3_posters.cjs",
+      "version_label": "event",
+      "function_names": [
+        "poster",
+        "wall",
+        "stand",
+        "directory42",
+        "schedule44"
+      ],
+      "control_structure_counts": {
+        "FunctionDeclaration": 5,
+        "IfStatement": 17,
+        "ForStatement": 1
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "90285af1b52eb74d769f7d54bb48882e4af7df2dec67fe3e86993135c56cdde7"
+    },
+    {
+      "id": "additional-source-31",
+      "public_path": "workflows/event/v3_props.cjs",
+      "version_label": "event",
+      "function_names": [
+        "shape",
+        "kt",
+        "flag",
+        "flagSleeve",
+        "badge",
+        "label",
+        "armband",
+        "pilotLabel",
+        "direction",
+        "fan",
+        "notebook",
+        "medal",
+        "ribbon",
+        "certificate",
+        "printMark"
+      ],
+      "control_structure_counts": {
+        "FunctionDeclaration": 15,
+        "IfStatement": 16,
+        "ForStatement": 1
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "968c0a02dcd9bca7eb4b49f4d7097eff719d129fa8d18d5bec348aaeb2a37f83"
+    },
+    {
+      "id": "additional-source-32",
+      "public_path": "workflows/event/v3_qa_sheets.cjs",
+      "version_label": "event",
+      "function_names": [],
+      "control_structure_counts": {
+        "ForOfStatement": 1,
+        "ForStatement": 2
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "86d95e283fe422a9564586138b5daf74b36218d636a67d32b5bc342f251c0847"
+    },
+    {
+      "id": "additional-source-33",
+      "public_path": "workflows/event/v3_stickers.cjs",
+      "version_label": "event",
+      "function_names": [
+        "cutPath",
+        "frame",
+        "sticker",
+        "original49",
+        "sheet"
+      ],
+      "control_structure_counts": {
+        "FunctionDeclaration": 5,
+        "IfStatement": 6,
+        "ForStatement": 1
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "1129445c487649f70f9a08c66d334eebae77ef4a9897d3431f5369811d361600"
+    },
+    {
+      "id": "additional-source-34",
+      "public_path": "workflows/event/v3_transparency_review.cjs",
+      "version_label": "event",
+      "function_names": [],
+      "control_structure_counts": {
+        "ForOfStatement": 2,
+        "ForStatement": 2
+      },
+      "default_guard": true,
+      "original_business_inputs_included": false,
+      "original_bytes_preserved_locally_only": true,
+      "release_sha256": "3df73f4c43c6085f729595cff871bd09f47b988230e022e34897f5f621a29c99"
+    }
+  ]
+}

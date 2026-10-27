@@ -1,0 +1,47 @@
+{
+  "previous_programs": 55,
+  "additional_programs": 2,
+  "combined_historical_programs": 57,
+  "original_business_data_modules_excluded": 3,
+  "synthetic_input_schemas": 3,
+  "synthetic_string_fields": 1285,
+  "lineage": "distinct early implementations; no identical full SHA or AST shape; direct ancestry unproven",
+  "programs": [
+    {
+      "public_path": "workflows/early-document-builders/build_docx.js",
+      "control_counts": {
+        "IfStatement": 8,
+        "ArrowFunction": 78,
+        "FunctionDeclaration": 3,
+        "WhileStatement": 1
+      },
+      "function_names": [
+        "inline",
+        "mkCell",
+        "table"
+      ],
+      "data_and_path_adaptations": {
+        "string_literals": 254,
+        "output_path": 1,
+        "private_reserve_rate_externalized": 1
+      },
+      "full_layout_control_source_preserved": true,
+      "release_sha256": "3a5b01bcaa120478c573b5ced0c8386f283707a4e6e6fb9b70ce4c4b325a8d11"
+    },
+    {
+      "public_path": "workflows/early-document-builders/build_html.js",
+      "control_counts": {
+        "IfStatement": 1,
+        "ArrowFunction": 67
+      },
+      "function_names": [],
+      "data_and_path_adaptations": {
+        "string_literals": 201,
+        "output_path": 1,
+        "private_reserve_rate_externalized": 1
+      },
+      "full_layout_control_source_preserved": true,
+      "release_sha256": "574b308bd9b40a6d68c27a3ceb8f516da5a33b6cba2b612abbb7913fa6a34fee"
+    }
+  ]
+}
